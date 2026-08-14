@@ -81,13 +81,17 @@ Trois agents dédiés se partagent le travail (`.claude/agents/`). La séparatio
 
 | Agent | Modèle | Rôle | Sa sortie est classée dans |
 |---|---|---|---|
-| **journaliste** | Haiku | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | `collecte/NN-theme.md` |
+| **journaliste** | Sonnet | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | `collecte/NN-theme.md` |
 | **fact-checker** | Sonnet | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | `verifications/NN-theme.md` |
 | **editeur** | Opus | fixe le dispositif, hiérarchise, ancre par les ratios, applique les verdicts, assemble le numéro | `dispositif.md` et `index.md` — seul à y écrire |
 
-Le modèle croît avec l'irréversibilité de la décision : la collecte est large et bon marché, la vérification demande de la rigueur, l'assemblage engage le numéro. Corollaire de ce choix — **le fact-checker n'est pas une formalité, c'est le filet du journaliste** : ratisser large avec un modèle rapide produit mécaniquement des relevés de champ approximatifs, et c'est le contrôle n° 3 qui les rattrape.
+Le modèle croît avec l'irréversibilité de la décision, et l'assemblage est ce qui engage le numéro. Mais la collecte n'est pas pour autant le maillon où économiser : elle est l'entrée de tout le reste, et **le fact-checker ne rattrape que ce qu'on lui présente**. Un chiffre qu'un journaliste n'a pas trouvé, une controverse qu'il n'a pas repérée, un contre-exemple qu'il n'est pas allé chercher ne sont vus par personne en aval — le contrôle porte sur ce qui est écrit, jamais sur ce qui manque.
 
-Les frontmatters portent les alias `haiku` / `sonnet` / `opus`, pas des identifiants figés : le dépôt suit ainsi les montées de version sans intervention. Au moment où ce choix a été fait (août 2026), ils désignaient respectivement Haiku 4.5, Sonnet 5 et Opus 5. Ce qui compte est le rang relatif, pas la génération — si un jour la collecte doit être épinglée pour reproduire un numéro à l'identique, c'est une décision de numéro, pas de dépôt.
+C'est ce qui a fait passer le journaliste de Haiku à Sonnet, après la première collecte du n° 1 (août 2026). Le motif n'est pas l'exactitude — le fact-checker la couvre — mais **la couverture et l'honnêteté sur les lacunes** : un journaliste rapide s'arrête dès qu'il tient une réponse plausible, épuise son budget de recherche sans le répartir, et remplit le champ `EXTRAIT` par une paraphrase plutôt que d'écrire `non lu`. Cette dernière défaillance est la plus coûteuse, parce qu'elle est **silencieuse** : elle donne à une collecte non sourcée l'apparence d'une collecte sourcée.
+
+Reste le principe : **le fact-checker n'est pas une formalité, c'est le filet du journaliste.** Le contrôle n° 3 rattrape les relevés de champ approximatifs, quel que soit le modèle qui les a produits.
+
+Les frontmatters portent les alias `sonnet` / `opus`, pas des identifiants figés : le dépôt suit ainsi les montées de version sans intervention. Au moment où ce choix a été fait (août 2026), ils désignaient Sonnet 5 et Opus 5. Ce qui compte est le rang relatif, pas la génération — si un jour la collecte doit être épinglée pour reproduire un numéro à l'identique, c'est une décision de numéro, pas de dépôt.
 
 Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
 
