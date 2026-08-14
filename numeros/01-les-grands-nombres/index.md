@@ -115,7 +115,7 @@ Cette entrée est la charnière du numéro. Le rapport de dépendance passe de 4
 | Dépense totale de leurs soins | 122,8 Md€, dont 111,7 Md€ remboursés (91 %) | id. |
 | Part des dépenses remboursées par l'assurance maladie obligatoire | 67,3 % | id. |
 | Dépense moyenne annuelle par assuré en ALD | ≈ 9 300 €, dont ≈ 840 € de reste à charge | id. |
-| Âge moyen des assurés en ALD | 65 ans (synthèse) ou 66 ans (corps du rapport), contre 41,5 ans en population générale | id. |
+| Âge moyen des assurés en ALD, tous régimes | 65 ans (synthèse) ou 66 ans (corps du rapport), contre 41,5 ans en population générale | id. |
 | Dépenses liées à l'affection elle-même | 82,6 Md€ sur 122,8 Md€ | id. |
 | Point plus récent — bénéficiaires en 2022 | 13,8 millions, soit 20,1 % de la population ayant consommé des soins | article scientifique reprenant les données CNAM |
 
@@ -127,6 +127,7 @@ Les quatre affections les plus nombreuses, sur le seul régime général et pour
 | Diabète de type 1 et de type 2 (ALD 8) | 3 293 020 — 21,4 % | 67 ans |
 | Tumeurs malignes (ALD 30) | 2 386 370 — 15,5 % | 69 ans |
 | Affections psychiatriques de longue durée (ALD 23) | 1 526 110 — 9,9 % | 50 ans |
+| Ensemble des assurés en ALD — 12 344 220 personnes | 15 366 030 affections reconnues — 100,0 % | 63 ans |
 
 > **⚠️ Précautions de lecture.** Quatre pièges dans une seule entrée.
 >
@@ -134,7 +135,7 @@ Les quatre affections les plus nombreuses, sur le seul régime général et pour
 >
 > **Trois effectifs, qui ne forment pas une série.** 13,7 millions (2021, tous régimes), 13,8 millions (2022, tous régimes, autre producteur et autre dénominateur) et 12 344 220 (2022, régime général seul) diffèrent par le millésime, par le champ, ou par les deux. Les rapprocher pour en tirer une évolution ferait lire des variations de périmètre comme des variations de population. Le chiffre de titre est celui de 2021 parce que toutes les autres lignes du tableau — la dépense, la part remboursée, l'âge moyen — proviennent de la même publication, au même millésime et sur le même champ : c'est l'homogénéité de l'entrée qui commande, pas la fraîcheur de la donnée.
 >
-> **Le second tableau ne s'additionne pas en personnes.** Sa colonne de pourcentages a pour dénominateur les 15 366 030 affections reconnues, pas les 12 344 220 personnes physiques : un même assuré peut être reconnu au titre de plusieurs ALD. Le texte courant du même rapport donne d'autres pourcentages (32, 27, 19 et 12 %) qui ne se reconstruisent par aucun dénominateur cohérent ; ce sont ceux du tableau, reproductibles au dixième de point, qui sont publiés ici.
+> **Le second tableau ne s'additionne pas en personnes.** Sa colonne de pourcentages a pour dénominateur les 15 366 030 affections reconnues, pas les 12 344 220 personnes physiques : un même assuré peut être reconnu au titre de plusieurs ALD. Son âge moyen d'ensemble, 63 ans, n'infirme pas les 65 ou 66 ans du premier tableau : il porte sur un autre champ et un autre millésime. Trois valeurs coexistent donc dans la même source, et le rapport ne les départage pas. Le texte courant du même rapport donne d'autres pourcentages (32, 27, 19 et 12 %) qui ne se reconstruisent par aucun dénominateur cohérent ; ce sont ceux du tableau, reproductibles au dixième de point, qui sont publiés ici.
 >
 > **Ce n'est pas une prévalence.** La CNAM l'écrit : « Il convient d'être prudent dans l'interprétation des évolutions observées qui ne peuvent s'expliquer sous un angle purement épidémiologique », et « le nombre d'admissions en ALD liste est très sensible aux modifications des règles médico-administratives ». Une ALD est un statut administratif ouvrant droit à exonération, pas un diagnostic. L'ALD 12, hypertension artérielle sévère, a été retirée de la liste en 2011 : plus de 250 000 personnes ont ainsi cessé d'être comptées sans que rien ne change à leur santé.
 
@@ -166,7 +167,7 @@ Un contrepoint appartient à l'entrée elle-même, et il défait l'équation «�
 | Pauvreté et exclusion sociale | 34,0 Md€ | 3,6 % |
 | Logement | 16,1 Md€ | 1,7 % |
 
-> **⚠️ Précautions de lecture.** **Ici, l'addition est légitime** — et c'est une exception dans ce numéro. Les six risques sont des catégories mutuellement exclusives de la nomenclature européenne ESSPROS, pas des fractions attribuables qui se recouvrent : leur somme reconstitue le total, à l'arrondi près. La règle de non-additivité que ce numéro applique ailleurs vise les estimations modélisées, pas les nomenclatures comptables. Les valeurs européennes de 2024 sont des premières estimations par pays, moins consolidées que la valeur française. La part du risque vieillesse-survie est de 46 % : une fiche de la même publication écrit 43 %, valeur qui correspond en réalité au dénominateur des emplois (982,2 Md€, frais de gestion inclus) et non à celui des prestations — 426,7 / 932,5 = 45,8 %.
+> **⚠️ Précautions de lecture.** **Ici, l'addition est légitime** — et c'est une exception dans ce numéro. Les six risques sont des catégories mutuellement exclusives de la nomenclature européenne ESSPROS, pas des fractions attribuables qui se recouvrent : leur somme reconstitue le total, à l'arrondi près. La règle de non-additivité que ce numéro applique ailleurs vise les estimations modélisées, pas les nomenclatures comptables. Les valeurs européennes de 2024 sont des premières estimations par pays, moins consolidées que la valeur française. La part du risque vieillesse-survie est de 45,8 % (46 % dans le texte courant de la source, qui arrondit) : c'est le recalcul exact, 426,7 / 932,5, et c'est la valeur du tableau ci-dessus. Une fiche de la même publication écrit 43 %, valeur qui correspond en réalité au dénominateur des emplois (982,2 Md€, frais de gestion inclus) et non à celui des prestations.
 
 Trois valeurs publiques coexistent pour la part du PIB consacrée aux retraites, et aucune n'est fausse :
 
@@ -178,7 +179,7 @@ Trois valeurs publiques coexistent pour la part du PIB consacrée aux retraites,
 
 L'élément de réconciliation vient de la source elle-même : le champ des pensions des régimes légalement obligatoires représente **92 %** du risque vieillesse-survie la même année. L'écart se décompose donc en un effet de champ documenté, un effet de millésime, et un troisième périmètre, celui du COR. Ce numéro n'en élit aucune : élire en silence serait ici la seule erreur possible.
 
-**Pourquoi c'est structurant.** C'est la masse financière la plus lourde du numéro, et son ancrage tient dans l'écart européen : 31,9 % contre 27,3 %, soit 4,6 points de PIB au-dessus de la moyenne de l'Union. Rapporté aux prestations elles-mêmes, cet écart de 4,6 points sur 31,9 en représente environ le septième : c'est la fraction du système social français qui n'a pas d'équivalent dans la moyenne européenne.
+**Pourquoi c'est structurant.** C'est la masse financière la plus lourde du numéro, et son ancrage tient dans l'écart européen : 31,9 % contre 27,3 %, soit 4,6 points de PIB au-dessus de la moyenne de l'Union. Rapporté aux prestations elles-mêmes, cet écart de 4,6 points sur 31,9 en représente environ le septième : c'est la fraction du système social français qui n'a pas d'équivalent dans la moyenne européenne.
 
 Le classement au quatrième rang plutôt qu'au premier est un arbitrage assumé. La masse plaide pour le rang 1 ; l'effet de levier plaide contre, parce que cette masse est en très large part **commandée** par une autre — le premier poste, à lui seul 45,8 % du total, est le risque vieillesse-survie, dont l'évolution suit la structure par âge de l'entrée 2. Une entrée qui obéit ne peut pas être classée avant celle à laquelle elle obéit.
 
@@ -212,7 +213,7 @@ Deux ordres de grandeur complètent le tableau : 17,2 millions de personnes pe
 
 **Pourquoi c'est structurant.** L'irréversibilité et la durée sont ici maximales, et c'est ce qui classe cette entrée au cinquième rang malgré un effet de levier faible sur le reste du numéro. C'est aussi la seule entrée du Top 10 dont le grand nombre est un **écart de rythme** et non un niveau : le niveau, lui, est le meilleur de toute la série depuis 1990, et les émissions baissent sans interruption depuis 2018 hors rebond post-Covid de 2021.
 
-Le fait notable est le décrochage entre deux courbes qui allaient dans le même sens. L'inventaire progresse, la trajectoire réglementaire progresse plus vite : la cible de 274 Mt en 2030 suppose de retrancher 93 Mt aux 367 Mt de 2024, en six ans, quand la dernière année en a retranché 11,2. Le budget carbone de 342 Mt par an pour 2024-2028 est déjà dépassé par le bas en 2024 comme en 2025, ce qui rend la période suivante — 262 Mt par an de 2029 à 2033 — l'endroit où la contrainte mord.
+Le fait notable est le décrochage entre deux courbes qui allaient dans le même sens. L'inventaire progresse, la trajectoire réglementaire progresse plus vite : la cible de 274 Mt en 2030 suppose de retrancher 93 Mt aux 367 Mt de 2024, en six ans, quand la dernière année en a retranché 11,2. Le budget carbone de 342 Mt par an pour 2024-2028 est déjà dépassé : 367 Mt en 2024 et 359 Mt en 2025, contre 342 autorisés. La période suivante, fixée à 262 Mt par an de 2029 à 2033, est l'endroit où la contrainte mord.
 
 Deux masses sectorielles portent l'essentiel : transports et agriculture pèsent 55 % des émissions à elles deux, et ce sont les deux secteurs où la baisse est structurellement la plus lente. Le puits de carbone, lui, se dégrade — il compensait 14 % des émissions en 2024, une part en recul, ce qui ajoute au dénominateur ce qui manque au numérateur.
 
@@ -292,7 +293,7 @@ Un quatrième chiffre a été écarté. Les décès attribuables au dioxyde d'az
 
 > **⚠️ Précautions de lecture.** Une part de la hausse est un effet de mesure, et la source le quantifie : sur les +21,1 décès pour 100 000 habitants entre 2019 et 2024, +23,4 sont imputables à la probabilité accrue que la chute soit mentionnée sur le certificat de décès, et −2,3 à la baisse de la mortalité toutes causes. Autrement dit, l'intégralité de la hausse observée s'explique statistiquement par un meilleur enregistrement — ce qui ne dit pas que le phénomène ne progresse pas, mais interdit de lire la série comme une mesure directe. Les effectifs bruts et les taux standardisés sont donnés séparément et ne s'interchangent pas. Le rapport à la mortalité routière est calculé à champ homogène, France entière contre France entière : 20 148 / 3 515 = 5,7. Rapporté à la seule métropole, il donnerait 6,2 — chiffre plus frappant et moins juste.
 
-**L'écart entre l'objectif affiché et le résultat mesuré.** Le Plan antichute des personnes âgées, lancé en 2022, s'était donné pour cible de « réduire de 20 % à l'horizon 2024 le nombre des chutes mortelles ou entraînant une hospitalisation », soit −27 000 séjours hospitaliers et −2 000 décès. Sur les mêmes indicateurs et la même période, les taux standardisés ont augmenté de 18,0 % pour la mortalité et de 20,5 % pour les hospitalisations. L'écart à la cible est donc de 38 points sur la mortalité et de 40,5 points.
+**L'écart entre l'objectif affiché et le résultat mesuré.** Le Plan antichute des personnes âgées, lancé en 2022, s'était donné pour cible de « réduire de 20 % à l'horizon 2024 le nombre des chutes mortelles ou entraînant une hospitalisation », soit −27 000 séjours hospitaliers et −2 000 décès. Sur les mêmes indicateurs et la même période, les taux standardisés ont augmenté de 18,0 % pour la mortalité et de 20,5 % pour les hospitalisations. L'écart à la cible est donc de 38 points sur la mortalité et de 40,5 points.
 
 Santé publique France accompagne ce constat d'un avertissement que ce numéro reprend intégralement : « l'analyse descriptive mise en œuvre dans ce travail ne peut pas, à elle seule, permettre de conclure de manière causale à une efficacité du plan ». L'écart est mesuré, son imputation ne l'est pas.
 
