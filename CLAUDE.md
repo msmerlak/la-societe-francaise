@@ -107,10 +107,25 @@ Le titre de l'entrée = **le chiffre**, pas le thème. « 20 148 morts par chute
 
 ---
 
+## La chaîne de production
+
+Trois agents dédiés se partagent le travail (`.claude/agents/`). La séparation est délibérée : celui qui collecte ne juge pas, celui qui juge ne réécrit pas, celui qui écrit n'invente aucun chiffre.
+
+| Agent | Rôle | Écrit dans `numeros/` ? |
+|---|---|---|
+| **journaliste** | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | non |
+| **fact-checker** | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | non — aucun outil d'écriture |
+| **editeur** | hiérarchise, attribue les indices de sous-exposition, ancre par les ratios, applique les verdicts, assemble le numéro | oui — seul à le faire |
+
+**Ordre d'intervention** : journaliste → fact-checker → editeur → fact-checker (passe finale sur le texte assemblé) → publication. Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
+
+Le journaliste peut être lancé en plusieurs exemplaires en parallèle sur des thèmes distincts. Le fact-checker aussi, un par entrée.
+
 ## Organisation du dépôt
 
 ```
 numeros/          un fichier Markdown par numéro : NN-slug.md
+.claude/agents/   journaliste, fact-checker, editeur
 CLAUDE.md         ce fichier
 ```
 
