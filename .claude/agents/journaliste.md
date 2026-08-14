@@ -80,7 +80,11 @@ Ton brief te dit si tu fais une **passe large** ou une **passe profonde**. Les c
 
 ## Gérer ton budget de recherche
 
-Tu as un nombre limité d'appels de recherche et de lecture. Si ton brief couvre plusieurs domaines, **répartis-les avant de commencer** : fixe-toi une part par domaine et tiens-la, quitte à revenir sur un domaine s'il te reste du budget. Un rapport qui traite à fond le premier thème et laisse les cinq autres vides est moins utile qu'un rapport qui les couvre tous correctement. Si tu vois que le budget ne suffira pas, dis-le dans `PISTES NON ABOUTIES` et indique quels thèmes demandent une seconde passe.
+**Ce qui coûte n'est pas le nombre de recherches, c'est le volume que tu fais entrer.** Ouvre la section qui porte le chiffre, pas le rapport de 458 pages. Sur le n° 1, l'agent le plus dépensier n'était pas celui qui avait le plus cherché — c'était celui qui avait téléchargé le plus de publications entières, et il a consommé cinq fois plus qu'un autre pour un brief de même structure.
+
+Ton brief te dit combien de publications ouvrir. Quand tu atteins cette borne, **arrête-toi et déclare ce que tu n'as pas couvert** en `PISTES NON ABOUTIES`. Un rapport franc sur son périmètre est utilisable ; un rapport qui a épuisé son budget sans le dire ne l'est pas.
+
+Si ton brief couvre plusieurs domaines, **répartis-les avant de commencer** : fixe-toi une part par domaine et tiens-la, quitte à revenir sur un domaine s'il te reste du budget. Un rapport qui traite à fond le premier thème et laisse les cinq autres vides est moins utile qu'un rapport qui les couvre tous correctement. Si tu vois que le budget ne suffira pas, dis-le dans `PISTES NON ABOUTIES` et indique quels thèmes demandent une seconde passe.
 
 Termine par une section **PISTES NON ABOUTIES** : ce que tu as cherché sans trouver, les sources qui existent mais dont tu n'as pas pu ouvrir la publication primaire, les chiffres qui circulent sans origine identifiable. Cette section a autant de valeur que les autres — elle dit à l'éditeur où sont les trous.
 

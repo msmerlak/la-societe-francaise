@@ -95,13 +95,25 @@ Reste le principe : **le fact-checker n'est pas une formalité, c'est le filet d
 
 Les frontmatters portent les alias `sonnet` / `opus`, pas des identifiants figés : le dépôt suit ainsi les montées de version sans intervention. Au moment où ce choix a été fait (août 2026), ils désignaient Sonnet 5 et Opus 5. Ce qui compte est le rang relatif, pas la génération — si un jour la collecte doit être épinglée pour reproduire un numéro à l'identique, c'est une décision de numéro, pas de dépôt.
 
-Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
+Le journaliste dépose lui-même sa collecte, le fact-checker ses verdicts dans `verifications/` **et nulle part ailleurs**. Ni l'un ni l'autre ne peut écrire dans `index.md`, et le fact-checker ne peut toucher ni `collecte/` ni `dispositif.md` : il ne corrige jamais ce qu'il contrôle. La séparation tient à ce périmètre d'écriture, pas à l'absence d'outil.
+
+Le fact-checker **dépose au fil de l'eau**, thème par thème, sans attendre d'avoir tout fini. Ce n'est pas une commodité : une session interrompue emporte tout ce qui n'est pas sur disque. Le n° 1 a perdu dix vérifications de cette façon — coût engagé, sortie nulle, aucune reprise possible parce que le travail vivait dans le contexte de l'agent.
 
 **Ordre d'intervention** : dispositif → journaliste (passe large) → **triage éditorial** → journaliste (passe profonde, sur les seuls thèmes retenus) → fact-checker (sur la sélection) → editeur → fact-checker (passe finale sur le texte assemblé) → publication.
 
 Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
 
 Le journaliste peut être lancé en plusieurs exemplaires en parallèle sur des thèmes distincts. Le fact-checker aussi.
+
+### Le budget d'un agent se borne dans son brief
+
+Ce que coûte un agent ne dépend presque pas du modèle ni du nombre de recherches : il dépend de **ce qui entre dans son contexte**. Sur le n° 1, un journaliste a consommé cinq fois plus qu'un autre pour un brief de même structure, et l'agent le plus dépensier n'était pas celui qui avait fait le plus de recherches — c'était celui qui avait téléchargé le plus de PDF entiers.
+
+Deux règles en découlent.
+
+**Borner la lecture, pas la recherche.** Un brief dit combien de publications ouvrir, et demande à l'agent de **déclarer ce qu'il a laissé de côté** quand il atteint la borne. On lit la section qui porte le chiffre, pas le rapport de 458 pages. Un agent sans borne dépense jusqu'à ce que sa tâche lui paraisse finie, et ce seuil varie énormément d'un thème à l'autre.
+
+**Ne pas créer un agent pour trois chiffres.** L'amorçage — lire le CLAUDE.md, le dispositif, la collecte du thème — coûte de l'ordre de 80 000 à 100 000 tokens avant tout travail utile. Sur le n° 1, une revérification portant sur quatre chiffres a coûté autant que la passe finale sur le numéro entier. En dessous d'une quinzaine de chiffres à traiter, grouper avec un thème voisin plutôt que lancer un agent dédié.
 
 ### Le triage précède la vérification
 

@@ -23,7 +23,7 @@ Un dossier par numéro : `numeros/NN-slug/`.
 - `dispositif.md` — l'angle et les conventions du numéro. **Tu l'écris en premier, avant toute collecte** : un numéro dont l'angle n'est pas écrit produit une collecte sans critère d'arrêt. Tu peux le faire évoluer si la matière collectée déplace la question, mais alors tu le réécris explicitement — tu ne laisses jamais le texte diverger du dispositif en silence.
 - `index.md` — le numéro publié. **Tu es le seul à y écrire.**
 - `collecte/` — les rapports du journaliste. Tu les lis, tu n'y touches pas. C'est ta seule source de chiffres : tout nombre de `index.md` doit être traçable jusqu'à une ligne de `collecte/`.
-- `verifications/` — les rapports du fact-checker. Il n'a pas d'outil d'écriture : quand tu en reçois un, classe-le ici sous `NN-theme.md` avant d'appliquer ses verdicts. Le verdict archivé est ce qui rendra le chiffre réutilisable dans six mois.
+- `verifications/` — les rapports du fact-checker, qu'il y dépose lui-même, sous `NN-theme.md`. Tu les lis et tu appliques leurs verdicts ; tu n'y écris pas. Le verdict archivé est ce qui rendra le chiffre réutilisable dans six mois.
 - `media/` — graphiques et images, si le numéro en a.
 
 Si le dossier n'existe pas encore, crée-le. Le fichier publié s'appelle toujours `index.md`.
