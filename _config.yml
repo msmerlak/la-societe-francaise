@@ -1,0 +1,25 @@
+# Configuration GitHub Pages.
+#
+# Ce fichier existe pour une seule raison : empêcher la publication des archives
+# de travail. Le dépôt versionne la matière brute du magazine — collectes,
+# vérifications, dispositifs — et le CLAUDE.md pose que rien de tout cela n'est
+# diffusé. Or Pages, servi depuis la racine d'une branche, publie par défaut
+# tout ce qu'il y trouve.
+#
+# La protection propre est de servir le seul dossier `docs/`, produit par
+# site/build.py (Settings → Pages → Folder → /docs). Cette liste d'exclusions
+# est la ceinture qui tient tant que la bretelle n'est pas bouclée : elle doit
+# rester même après, car une bascule de réglage ne doit pas pouvoir remettre les
+# archives en ligne.
+
+exclude:
+  - CLAUDE.md
+  - numeros
+  - site
+  - .claude
+  - .gitignore
+  - README.md
+
+# Aucun thème, aucune génération Jekyll attendue : le site est produit par
+# site/build.py et déposé tel quel dans docs/, qui porte son propre .nojekyll.
+plugins: []
