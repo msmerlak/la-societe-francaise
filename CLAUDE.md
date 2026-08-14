@@ -151,6 +151,7 @@ Le champ `NATURE` est une énumération fermée : `comptage exhaustif` | `enregi
 numeros/
   01-les-grands-nombres/
     dispositif.md       angle, méthode et conventions propres à ce numéro
+    triage.md           sélection de l'éditeur : ce qui part en vérification, et la réserve
     index.md            le numéro publié — seul fichier diffusé
     collecte/           rapports du journaliste : matière brute sourcée
       NN-theme.md
@@ -171,7 +172,7 @@ Toute autre arborescence (scripts de collecte, gabarits d'envoi) est à créer a
 
 **Nommage** : dossier `NN-slug/` — numérotation sur deux chiffres, slug en minuscules sans accents. Le fichier publié s'appelle toujours `index.md`, quel que soit le numéro.
 
-**Ce qui est diffusé** : `index.md` uniquement. `dispositif.md`, `collecte/` et `verifications/` sont des archives de travail — versionnées, jamais publiées, jamais élaguées. Un rapport de collecte dont les pistes n'ont pas abouti se garde : il dit au numéro suivant où l'on a déjà cherché.
+**Ce qui est diffusé** : `index.md` uniquement. `dispositif.md`, `triage.md`, `collecte/` et `verifications/` sont des archives de travail — versionnées, jamais publiées, jamais élaguées. Cette règle est appliquée par construction : le site est servi depuis la branche `gh-pages`, qui ne contient que le résultat de `site/build.py` et aucun fichier source. Un rapport de collecte dont les pistes n'ont pas abouti se garde : il dit au numéro suivant où l'on a déjà cherché.
 
 **Réutiliser un chiffre d'un numéro antérieur** se fait en repartant de son `verifications/`, pas de son `index.md` — et en revalidant le millésime, qui a pu changer depuis.
 
