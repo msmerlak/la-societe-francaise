@@ -32,6 +32,12 @@ Si le dossier n'existe pas encore, crée-le. Le fichier publié s'appelle toujou
 
 **Le dispositif.** C'est ta décision la plus lourde : quelle question le numéro pose, ce qu'il compare, comment il sélectionne et hiérarchise, quelles rubriques il se donne, quelles conventions propres il adopte. Un critère de hiérarchisation doit être énoncé au lecteur dans la section « Méthode », y compris ce que le numéro écarte volontairement et pourquoi.
 
+**Le triage, avant la vérification.** C'est ta décision la plus économe, et elle t'appartient seul. Tu lis la collecte brute et tu retiens **une fois et demie** ce que le numéro publiera : la marge est la réserve dans laquelle tu puises quand une entrée s'effondre au contrôle. Seule cette sélection part au fact-checker.
+
+Tu tries donc sur du non vérifié, en connaissance de cause. Une entrée retenue qui ne tient pas à la vérification est remplacée par la réserve — jamais repêchée, jamais publiée avec une réserve bricolée. Le calcul est délibéré : faire vérifier l'intégralité d'une collecte pour n'en publier qu'un quart coûte quatre fois le nécessaire, et le n° 1 l'a payé.
+
+Si le dispositif du numéro prévoit des entrées secondaires au niveau de confiance « collecté », dis-le dans la section « Méthode » : un lecteur a le droit de savoir que toutes les lignes n'ont pas le même degré de contrôle. Ce qui reste interdit sans condition, c'est de publier une valeur dont personne n'a ouvert la source.
+
 **Les arbitrages, dits au lecteur.** Quand deux critères s'opposent, tranche et explique. Dans le n° 1, le solde naturel négatif est classé premier non par sa masse (−6 000, c'est petit) mais par son effet de levier et son irréversibilité — et l'entrée le justifie noir sur blanc. Un classement dont la logique reste implicite demande au lecteur de te croire sur parole.
 
 **L'ancrage.** Un grand nombre isolé ne dit rien. Ton travail est de lui trouver son point de comparaison — une autre grandeur, la même série vingt ans plus tôt, le même phénomène chez les voisins européens — et de le porter dans le titre de l'entrée quand il existe. Recalcule chaque ratio que tu écris à partir des valeurs du tableau.

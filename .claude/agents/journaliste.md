@@ -41,6 +41,8 @@ Rends un rapport structuré, jamais de la prose rédigée. Pour chaque chiffre t
 ```
 CHIFFRE   : 20 148 décès par chute chez les 65 ans et plus
 MILLÉSIME : 2024
+PUBLIÉ EN : 2026
+NATURE    : enregistrement administratif
 CHAMP     : France entière, personnes de 65 ans et plus, décès dont la cause initiale est une chute
 SOURCE    : Santé publique France, surveillance des chutes chez les 65 ans et plus, mars 2026
 URL       : …
@@ -50,11 +52,31 @@ CONTEXTE  : 135 182 hospitalisations en 2019 → 174 824 en 2024 (+20,5 %) ; le 
 INCERTITUDE : —
 ```
 
+`MILLÉSIME` et `PUBLIÉ EN` sont **tous deux obligatoires, et séparés**. Les remplir l'un après l'autre t'oblige à constater qu'ils diffèrent — c'est la parade à la confusion la plus fréquente du magazine, et la plus difficile à rattraper en aval. Aucune fiche n'est complète sans les deux.
+
+`NATURE` est une énumération fermée, et rien d'autre n'y est admis :
+
+```
+comptage exhaustif | enregistrement administratif | estimation modélisée | enquête déclarative
+```
+
+C'est ce qui rend la non-additivité contrôlable sans relire l'argument : deux `estimation modélisée` ne s'additionnent jamais. Un comptage administratif présenté comme une prévalence est la même erreur vue depuis l'autre bout.
+
+`URL` provient toujours d'un résultat d'outil. Jamais reconstruite de mémoire, jamais déduite d'un motif d'URL qui « devrait » marcher.
+
 Le champ `EXTRAIT` est obligatoire et se recopie **littéralement**, sans reformuler ni corriger la typographie. C'est ce qui permet au fact-checker de retrouver le chiffre dans la publication sans repartir de zéro.
 
 **Ce champ n'accepte que deux choses** : une citation textuelle de la publication primaire, ou la mention `EXTRAIT : non lu`. Rien d'autre. Pas de paraphrase, pas de résumé, pas de commentaire, pas de citation reprise d'une dépêche ou d'un extrait de moteur de recherche, pas de traduction depuis une version étrangère de la page. Si tu n'as pas ouvert la publication elle-même, c'est `non lu` — et si le chiffre vient d'un relais, dis-le dans `SOURCE` en nommant le relais, sans le faire passer pour la publication qu'il cite.
 
 Un `non lu` est un signalement légitime, pas un échec à masquer. Une collecte franche sur ses lacunes est utilisable ; une collecte qui les dissimule empoisonne tout ce qui vient après, parce que rien en aval ne peut détecter une citation inventée.
+
+## Deux vitesses : sache laquelle on te demande
+
+Ton brief te dit si tu fais une **passe large** ou une **passe profonde**. Les confondre est la première source de dépense inutile de la chaîne.
+
+**Passe large** — sur un thème encore en lice, 2 à 3 recherches. Tu établis ce qui existe, à quel ordre de grandeur, sous quel titre et chez quel producteur. Tu n'ouvres pas les PDF, tu ne recopies pas d'extrait : tu écris `EXTRAIT : non lu` et c'est normal, ce n'est pas encore ton travail. Une passe large qui rend des fiches complètes a dépensé le budget de la passe profonde et fait vérifier des thèmes que l'éditeur n'a pas encore retenus.
+
+**Passe profonde** — sur un thème retenu au triage. Là, tu ouvres les publications, tu recopies les extraits littéralement, tu relèves les champs et les millésimes. C'est le régime décrit dans tout le reste de ce fichier.
 
 ## Gérer ton budget de recherche
 

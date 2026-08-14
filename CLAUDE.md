@@ -97,9 +97,49 @@ Les frontmatters portent les alias `sonnet` / `opus`, pas des identifiants figé
 
 Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
 
-**Ordre d'intervention** : dispositif → journaliste → fact-checker → editeur → fact-checker (passe finale sur le texte assemblé) → publication. Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
+**Ordre d'intervention** : dispositif → journaliste (passe large) → **triage éditorial** → journaliste (passe profonde, sur les seuls thèmes retenus) → fact-checker (sur la sélection) → editeur → fact-checker (passe finale sur le texte assemblé) → publication.
 
-Le journaliste peut être lancé en plusieurs exemplaires en parallèle sur des thèmes distincts. Le fact-checker aussi, un par entrée.
+Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
+
+Le journaliste peut être lancé en plusieurs exemplaires en parallèle sur des thèmes distincts. Le fact-checker aussi.
+
+### Le triage précède la vérification
+
+C'est la règle qui gouverne le coût de la chaîne, et elle a été apprise à la dure : le n° 1 a fait vérifier 270 fiches pour en publier une soixantaine. Quatre fois trop, parce que la vérification est passée avant qu'on sache ce qui serait publié.
+
+**Ne jamais vérifier ce qui n'est pas encore retenu.** L'éditeur trie d'abord sur la collecte brute, puis le fact-checker travaille sur la sélection. Le triage porte sur **une fois et demie** ce que le numéro publiera : la marge est la réserve dans laquelle on puise quand une entrée s'effondre à la vérification. Une entrée qui s'effondre est remplacée par la réserve, jamais repêchée.
+
+Le risque est réel et assumé : l'éditeur trie sur du non vérifié, et peut retenir une entrée qui ne tiendra pas. C'est précisément ce que la réserve absorbe. Le risque inverse — vérifier tout pour n'en publier qu'un quart — coûte quatre fois plus cher pour la même sortie.
+
+### Deux vitesses de collecte
+
+**Passe large** : sur tous les thèmes envisagés, 2 à 3 recherches chacun. Objectif : savoir ce qui existe, à quel ordre de grandeur, sous quel titre. Pas d'ouverture de PDF, pas de citation littérale. Une passe large qui produit des fiches complètes a dépensé le budget de la passe profonde.
+
+**Passe profonde** : sur les seuls thèmes retenus au triage. C'est là qu'on ouvre les publications, qu'on recopie les extraits et qu'on relève les champs.
+
+### Deux niveaux de confiance, déclarés au lecteur
+
+Tout ce qu'un numéro publie n'a pas à être vérifié au même degré, à condition que la différence soit dite.
+
+| Niveau | Ce qu'il exige | Ce qu'il permet |
+|---|---|---|
+| **Vérifié** | source primaire rouverte par le fact-checker | les entrées de tête du numéro |
+| **Collecté** | fiche du journaliste, extrait littéral, non recontrôlé | les entrées secondaires, si le numéro annonce ce niveau |
+
+Un numéro qui emploie le second niveau le déclare dans sa section « Méthode ». Ce qui reste interdit sans condition : publier une valeur dont personne n'a ouvert la source, quel que soit le niveau affiché.
+
+### Ce qui circule entre les étages
+
+Le journaliste rend des **fiches**, jamais de la prose rédigée. Deux champs sont obligatoires et séparés :
+
+- `MILLÉSIME` — l'année de mesure ;
+- `PUBLIÉ EN` — l'année de parution.
+
+Les remplir tous les deux oblige à constater qu'ils diffèrent. C'est la parade structurelle à la confusion millésime/publication, qui est l'erreur la plus fréquente du magazine et la moins visible.
+
+Le champ `NATURE` est une énumération fermée : `comptage exhaustif` | `enregistrement administratif` | `estimation modélisée` | `enquête déclarative`. Il rend la non-additivité contrôlable autrement que par la vigilance : deux estimations modélisées ne s'additionnent jamais, et la règle peut être appliquée sans relire l'argument.
+
+`URL` provient toujours d'un résultat d'outil. Jamais reconstruite de mémoire, jamais déduite d'un motif d'URL.
 
 ---
 
