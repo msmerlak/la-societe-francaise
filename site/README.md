@@ -75,6 +75,32 @@ Les dates de publication et de mise à jour viennent de l'historique git du fich
 
 `--newsletter` produit le même contenu avec les styles repliés dans les balises, une largeur fixe de 620 px et une mise en page en tableaux : les clients de messagerie ignorent les feuilles de style externes, et une partie ignore `<style>`. Les alignements de colonnes sont repliés en `text-align` en ligne, sans quoi les tableaux de chiffres se désalignent à l'envoi.
 
-## À faire quand ça servira
+## Publier
 
-Le déploiement n'est pas câblé : rien n'est encore publié, et le `CLAUDE.md` demande de créer l'arborescence au moment où elle sert. Quand un numéro sortira, il restera à choisir un hébergement pour `public/` et, si l'on veut un garde-fou, à lancer `--controler --strict` en intégration continue.
+Le site est servi par GitHub Pages depuis la branche **`gh-pages`**, qui ne contient que le résultat de la construction : `index.html`, les numéros, les styles, le flux, et un `.nojekyll`. Aucun fichier source n'y figure.
+
+C'est le même principe que le générateur lui-même — la garantie est structurelle, pas déclarative. Les `collecte/`, `verifications/` et `dispositif.md` ne peuvent pas fuiter par une erreur de réglage : **ils ne sont pas sur la branche publiée**.
+
+Pour publier une mise à jour :
+
+```sh
+python3 site/build.py --sortie /tmp/site --newsletter \
+    --base "https://msmerlak.github.io/la-societe-francaise/"
+
+git worktree add /tmp/ghp gh-pages
+rm -rf /tmp/ghp/*                 # jamais les fichiers cachés : .nojekyll doit rester
+cp -r /tmp/site/. /tmp/ghp/
+git -C /tmp/ghp add -A && git -C /tmp/ghp commit -m "site : publie la mise à jour"
+git -C /tmp/ghp push origin gh-pages
+git worktree remove /tmp/ghp
+```
+
+Toujours construire avant de publier, et ne jamais éditer un fichier de `gh-pages` à la main : la branche est une sortie, pas une source.
+
+### Le fichier `_config.yml` à la racine
+
+Il exclut `numeros/`, `site/`, `.claude/` et le `CLAUDE.md` de toute construction Jekyll. Il ne sert à rien tant que Pages est réglé sur `gh-pages` — c'est exactement pourquoi il faut le garder : si le réglage repasse un jour sur `main`, il est la seule chose qui empêche les archives de travail d'être publiées. Une brève période où ce n'était pas le cas a suffi pour les rendre publiques.
+
+### Reste à câbler quand ça servira
+
+Automatiser la publication (une action GitHub sur `main` qui construit et pousse `gh-pages`) et faire tourner `--controler --strict` en intégration continue. Ni l'un ni l'autre n'est urgent tant qu'aucun numéro n'est publié.
