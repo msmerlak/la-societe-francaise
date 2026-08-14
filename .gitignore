@@ -1,0 +1,6 @@
+# Sortie du générateur : régénérable à tout moment par site/construire.py
+public/
+
+__pycache__/
+*.pyc
+.DS_Store

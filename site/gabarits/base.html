@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titre_page}}</title>
+<meta name="description" content="{{description}}">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="{{racine}}styles/societe.css">
+<link rel="alternate" type="application/rss+xml" title="{{enseigne}}" href="{{racine}}flux.xml">
+</head>
+<body>
+<header class="bandeau">
+  <a class="enseigne" href="{{racine}}index.html">{{enseigne}}</a>
+  <p class="devise">{{devise}}</p>
+</header>
+
+<main>
+{{contenu}}
+</main>
+
+<footer class="pied">
+  <p>{{enseigne}} — {{annee}}. Les chiffres publiés proviennent de sources publiques primaires, citées avec leur millésime.</p>
+  <p><a href="{{racine}}flux.xml">Flux RSS</a></p>
+</footer>
+</body>
+</html>

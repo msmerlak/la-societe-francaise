@@ -115,11 +115,17 @@ numeros/
     verifications/      rapports du fact-checker : verdicts par chiffre
       NN-theme.md
     media/              graphiques et images, si le numéro en a (optionnel)
+site/                   générateur du site et de la newsletter — voir site/README.md
+  construire.py         construit public/ à partir des index.md ; --controler pour vérifier
+  rendu.py              Markdown → HTML, sous-ensemble autorisé par les contraintes de diffusion
+  controles.py          typographie, contraintes de diffusion, squelette du numéro
 .claude/agents/         journaliste, fact-checker, editeur
 CLAUDE.md               ce fichier — les invariants du magazine
 ```
 
-Toute autre arborescence (site statique, gabarits de newsletter, scripts de collecte) est à créer au moment où elle sert, pas par anticipation.
+Le générateur ne publie que les `index.md` : le `dispositif.md`, la `collecte/` et les `verifications/` lui sont invisibles par construction. `python3 site/construire.py --controler` rend exécutable la partie mécanique de la liste de vérification ci-dessous — typographie, tableaux à trois colonnes, absence de HTML, émojis déclarés au dispositif. Il ne vérifie aucun chiffre : c'est le fact-checker, et rien d'autre, qui les vérifie.
+
+Toute autre arborescence (scripts de collecte, gabarits d'envoi) est à créer au moment où elle sert, pas par anticipation.
 
 **Nommage** : dossier `NN-slug/` — numérotation sur deux chiffres, slug en minuscules sans accents. Le fichier publié s'appelle toujours `index.md`, quel que soit le numéro.
 
