@@ -8,10 +8,10 @@ ne va chercher aucun autre fichier, et refuse de servir un dossier de travail
 même s'il en reçoit le chemin.
 
 Usage :
-    python3 site/construire.py                  construit dans public/
-    python3 site/construire.py --controler      contrôle seulement, n'écrit rien
-    python3 site/construire.py --strict         échoue si un contrôle remonte une erreur
-    python3 site/construire.py --newsletter     produit aussi la version e-mail
+    python3 site/build.py                  construit dans public/
+    python3 site/build.py --controler      contrôle seulement, n'écrit rien
+    python3 site/build.py --strict         échoue si un contrôle remonte une erreur
+    python3 site/build.py --newsletter     produit aussi la version e-mail
 """
 
 from __future__ import annotations
@@ -26,8 +26,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-import controles  # noqa: E402
-import rendu  # noqa: E402
+import checks  # noqa: E402
+import render  # noqa: E402
 
 RACINE_SITE = Path(__file__).resolve().parent
 GABARITS = RACINE_SITE / "gabarits"
@@ -76,7 +76,7 @@ class Numero:
         self.source = dossier / "index.md"
         self.dispositif = dossier / "dispositif.md"
         self.markdown = self.source.read_text(encoding="utf-8")
-        self.document = rendu.analyser(self.markdown)
+        self.document = render.analyser(self.markdown)
         self.publie_le, self.modifie_le = self._dates()
 
     @property
@@ -354,8 +354,8 @@ def controler_tout(racine: Path) -> tuple[int, int]:
     total_erreurs = total_avertissements = 0
     for numero in numeros:
         dispositif = numero.dispositif if numero.dispositif.exists() else None
-        signalements = controles.controler(numero.markdown, dispositif)
-        erreurs, avertissements = controles.resumer(signalements)
+        signalements = checks.controler(numero.markdown, dispositif)
+        erreurs, avertissements = checks.resumer(signalements)
         total_erreurs += erreurs
         total_avertissements += avertissements
 

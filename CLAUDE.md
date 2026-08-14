@@ -6,6 +6,8 @@ Magazine en ligne (site + newsletter) qui brosse un **portrait quantitatif et pe
 
 Langue de publication : **français**. Tout le contenu, les noms de fichiers et les messages de commit sont en français.
 
+Une exception, et une seule : **le code porte des noms de modules en anglais** (`site/build.py`, `render.py`, `checks.py`), selon l'usage de la programmation. La frontière est celle du lectorat — ce qu'un lecteur voit est en français, ce qui fabrique le site est nommé comme du code.
+
 ## Ce qui est constant, ce qui varie
 
 C'est la distinction la plus importante de ce fichier.
@@ -116,14 +118,14 @@ numeros/
       NN-theme.md
     media/              graphiques et images, si le numéro en a (optionnel)
 site/                   générateur du site et de la newsletter — voir site/README.md
-  construire.py         construit public/ à partir des index.md ; --controler pour vérifier
-  rendu.py              Markdown → HTML, sous-ensemble autorisé par les contraintes de diffusion
-  controles.py          typographie, contraintes de diffusion, squelette du numéro
+  build.py              construit public/ à partir des index.md ; --controler pour vérifier
+  render.py             Markdown → HTML, sous-ensemble autorisé par les contraintes de diffusion
+  checks.py             typographie, contraintes de diffusion, squelette du numéro
 .claude/agents/         journaliste, fact-checker, editeur
 CLAUDE.md               ce fichier — les invariants du magazine
 ```
 
-Le générateur ne publie que les `index.md` : le `dispositif.md`, la `collecte/` et les `verifications/` lui sont invisibles par construction. `python3 site/construire.py --controler` rend exécutable la partie mécanique de la liste de vérification ci-dessous — typographie, tableaux à trois colonnes, absence de HTML, émojis déclarés au dispositif. Il ne vérifie aucun chiffre : c'est le fact-checker, et rien d'autre, qui les vérifie.
+Le générateur ne publie que les `index.md` : le `dispositif.md`, la `collecte/` et les `verifications/` lui sont invisibles par construction. `python3 site/build.py --controler` rend exécutable la partie mécanique de la liste de vérification ci-dessous — typographie, tableaux à trois colonnes, absence de HTML, émojis déclarés au dispositif. Il ne vérifie aucun chiffre : c'est le fact-checker, et rien d'autre, qui les vérifie.
 
 Toute autre arborescence (scripts de collecte, gabarits d'envoi) est à créer au moment où elle sert, pas par anticipation.
 

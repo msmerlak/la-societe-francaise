@@ -7,10 +7,10 @@ Générateur du site de *La société française*. Il transforme le `index.md` d
 ## Usage
 
 ```sh
-python3 site/construire.py                 # construit le site dans public/
-python3 site/construire.py --controler     # contrôle seulement, n'écrit rien
-python3 site/construire.py --strict        # échoue si un contrôle remonte une erreur
-python3 site/construire.py --newsletter    # produit aussi la version e-mail
+python3 site/build.py                 # construit le site dans public/
+python3 site/build.py --controler     # contrôle seulement, n'écrit rien
+python3 site/build.py --strict        # échoue si un contrôle remonte une erreur
+python3 site/build.py --newsletter    # produit aussi la version e-mail
 ```
 
 Options : `--source` (racine du dépôt), `--sortie` (dossier de destination), `--base` (URL publique, pour le flux RSS).
@@ -37,7 +37,7 @@ Le seul autre fichier qu'il ouvre est le `dispositif.md`, en lecture seule, pour
 
 ## Les contrôles
 
-`site/controles.py` rend exécutable la partie mécanique de la liste « Vérification avant publication » du `CLAUDE.md`. Il ne vérifie **aucun chiffre** — c'est le travail du fact-checker, et aucun programme ne peut le faire à sa place.
+`site/checks.py` rend exécutable la partie mécanique de la liste « Vérification avant publication » du `CLAUDE.md`. Il ne vérifie **aucun chiffre** — c'est le travail du fact-checker, et aucun programme ne peut le faire à sa place.
 
 Deux niveaux : les **erreurs** (`✖`) bloquent avec `--strict`, les **avertissements** (`▲`) sont signalés sans bloquer.
 
@@ -60,7 +60,7 @@ Les émojis autorisés sont lus dans le `dispositif.md` du numéro : le disposit
 
 ## Le rendu
 
-`site/rendu.py` implémente un sous-ensemble de Markdown : titres, paragraphes, tableaux, citations, listes, blocs de code, emphase, liens, images, filets. C'est exactement ce que les contraintes de diffusion autorisent dans un numéro. Tout ce qui ressemble à du HTML est échappé plutôt qu'interprété — le contrôle `html-brut` le signale, et le rendu le neutralise, de sorte qu'aucun balisage ne peut traverser par accident.
+`site/render.py` implémente un sous-ensemble de Markdown : titres, paragraphes, tableaux, citations, listes, blocs de code, emphase, liens, images, filets. C'est exactement ce que les contraintes de diffusion autorisent dans un numéro. Tout ce qui ressemble à du HTML est échappé plutôt qu'interprété — le contrôle `html-brut` le signale, et le rendu le neutralise, de sorte qu'aucun balisage ne peut traverser par accident.
 
 Deux détails qui servent un magazine quantitatif :
 
