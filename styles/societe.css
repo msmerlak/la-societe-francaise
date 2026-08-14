@@ -1,0 +1,336 @@
+/* La société française — feuille de style unique.
+   Le tableau porte les données, le texte porte l'argument : la mise en page
+   traite donc les tableaux comme du contenu de premier plan, pas comme une
+   annexe. Chiffres en chasse fixe pour que les colonnes s'alignent, et rien
+   qui dépende de JavaScript ou d'une police distante. */
+
+:root {
+  --papier: #fdfbf7;
+  --papier-creux: #f5f1e8;
+  --encre: #1d2630;
+  --encre-douce: #4a5361;
+  --encre-tenue: #6f7684;
+  --filet: #ded7ca;
+  --filet-fort: #b9b1a3;
+  --accent: #8c2f39;
+  --accent-doux: #f3e7e6;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+
+  --mesure: 36rem;
+  --mesure-large: 46rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --papier: #14181d;
+    --papier-creux: #1b2027;
+    --encre: #e6e3dc;
+    --encre-douce: #b9b5ad;
+    --encre-tenue: #8d8880;
+    --filet: #2c333c;
+    --filet-fort: #454e59;
+    --accent: #d98d92;
+    --accent-doux: #2a2023;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--serif), var(--emoji);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* ---------------------------------------------------------------- bandeau */
+
+.bandeau {
+  border-bottom: 1px solid var(--filet);
+  padding: 1.6rem 1.25rem 1.4rem;
+  text-align: center;
+}
+
+.enseigne {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: .8125rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.devise {
+  margin: .5rem 0 0;
+  font-size: .875rem;
+  font-style: italic;
+  color: var(--encre-tenue);
+}
+
+main {
+  max-width: var(--mesure-large);
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 1rem;
+}
+
+/* ------------------------------------------------------------------ titres */
+
+h1, h2, h3, h4 {
+  font-family: var(--serif), var(--emoji);
+  line-height: 1.25;
+  color: var(--encre);
+  text-wrap: balance;
+}
+
+h1 { font-size: 2rem; font-weight: 600; margin: 0 0 .75rem; letter-spacing: -.01em; }
+h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 3rem 0 1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--filet);
+}
+h3 { font-size: 1.1875rem; font-weight: 600; margin: 2.25rem 0 .6rem; }
+h4 { font-size: 1rem; font-weight: 600; margin: 1.75rem 0 .5rem; color: var(--encre-douce); }
+
+p { margin: 0 0 1.1rem; max-width: var(--mesure); }
+li { max-width: var(--mesure); }
+
+a { color: var(--accent); text-underline-offset: .16em; text-decoration-thickness: .05em; }
+a:hover { text-decoration-thickness: .12em; }
+
+strong { font-weight: 600; }
+
+/* --------------------------------------------------------- entête du numéro */
+
+.entete-numero { margin-bottom: 2.25rem; }
+
+.entete-numero h1 { font-size: 2.25rem; }
+
+.rang {
+  font-family: var(--sans);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 .5rem;
+}
+
+.chapo p {
+  font-size: 1.0625rem;
+  font-style: italic;
+  color: var(--encre-douce);
+  border-left: 2px solid var(--filet-fort);
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+}
+
+.date, .carte .meta {
+  font-family: var(--sans);
+  font-size: .8125rem;
+  color: var(--encre-tenue);
+  margin: 0;
+}
+
+/* --------------------------------------------------------------- sommaire */
+
+.sommaire {
+  background: var(--papier-creux);
+  border: 1px solid var(--filet);
+  padding: 1.25rem 1.5rem;
+  margin: 0 0 2.5rem;
+}
+
+.sommaire h2 {
+  font-family: var(--sans);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--encre-tenue);
+  border: 0;
+  margin: 0 0 .75rem;
+  padding: 0;
+}
+
+.sommaire ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 2rem; }
+.sommaire li { break-inside: avoid; margin: 0 0 .3rem; max-width: none; }
+.sommaire a { font-size: .9375rem; text-decoration: none; color: var(--encre-douce); }
+.sommaire a:hover { color: var(--accent); text-decoration: underline; }
+.sommaire .niveau-3 { padding-left: .9rem; font-size: .875rem; }
+
+@media (max-width: 34rem) { .sommaire ul { columns: 1; } }
+
+/* --------------------------------------------------------------- tableaux */
+
+.tableau {
+  overflow-x: auto;
+  margin: 1.5rem 0 1.75rem;
+  border-bottom: 1px solid var(--filet);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--sans), var(--emoji);
+  font-size: .9375rem;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+th {
+  text-align: left;
+  font-weight: 600;
+  font-size: .8125rem;
+  letter-spacing: .02em;
+  color: var(--encre);
+  border-bottom: 2px solid var(--filet-fort);
+  padding: .5rem .75rem;
+  white-space: nowrap;
+}
+
+td {
+  border-bottom: 1px solid var(--filet);
+  padding: .55rem .75rem;
+  color: var(--encre-douce);
+  vertical-align: top;
+}
+
+tbody tr:last-child td { border-bottom: 0; }
+td:first-child { color: var(--encre); }
+
+.al-right { text-align: right; }
+.al-center { text-align: center; }
+
+/* ------------------------------------------------------- citations, filets */
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: .9rem 1.25rem;
+  background: var(--papier-creux);
+  border-left: 3px solid var(--filet-fort);
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+blockquote.precaution {
+  background: var(--accent-doux);
+  border-left-color: var(--accent);
+}
+
+blockquote.precaution p { color: var(--encre); }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--filet);
+  margin: 2.5rem 0;
+}
+
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: .875em;
+  background: var(--papier-creux);
+  padding: .1em .35em;
+}
+
+pre {
+  background: var(--papier-creux);
+  border: 1px solid var(--filet);
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code { background: none; padding: 0; }
+
+/* ----------------------------------------------------------------- accueil */
+
+.presentation { margin-bottom: 3rem; }
+.presentation h1 { font-size: 1.875rem; }
+.presentation p { color: var(--encre-douce); }
+
+.numeros h2 {
+  font-family: var(--sans);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--encre-tenue);
+}
+
+.carte {
+  border-top: 1px solid var(--filet);
+  padding: 1.5rem 0;
+}
+
+.carte h3 { margin: .4rem 0 .5rem; font-size: 1.375rem; }
+.carte h3 a { text-decoration: none; color: var(--encre); }
+.carte h3 a:hover { color: var(--accent); }
+.carte .rang { display: inline; color: var(--accent); }
+.carte .date { display: inline; margin-left: .5rem; }
+.carte .extrait { font-style: italic; color: var(--encre-douce); font-size: .9375rem; }
+
+.vide { color: var(--encre-tenue); font-style: italic; }
+
+.autres-numeros {
+  border-top: 1px solid var(--filet);
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+}
+
+.autres-numeros h2 {
+  font-family: var(--sans);
+  font-size: .75rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--encre-tenue);
+  border: 0;
+  padding: 0;
+  margin: 0 0 .6rem;
+}
+
+.autres-numeros ul { list-style: none; margin: 0; padding: 0; }
+.autres-numeros a { font-size: .9375rem; }
+
+/* -------------------------------------------------------------------- pied */
+
+.pied {
+  max-width: var(--mesure-large);
+  margin: 3rem auto 0;
+  padding: 1.25rem 1.25rem 3rem;
+  border-top: 1px solid var(--filet);
+  font-family: var(--sans);
+  font-size: .8125rem;
+  color: var(--encre-tenue);
+}
+
+.pied p { margin: 0 0 .35rem; max-width: none; }
+
+/* ---------------------------------------------------------------- écrans   */
+
+@media (max-width: 34rem) {
+  body { font-size: 1rem; }
+  .entete-numero h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.25rem; }
+  main { padding-top: 1.75rem; }
+  table { font-size: .875rem; }
+}
+
+/* ---------------------------------------------------------------- impression */
+
+@media print {
+  :root { --papier: #fff; --papier-creux: #fff; --encre: #000; --encre-douce: #222; }
+  .bandeau, .sommaire, .autres-numeros, .pied { display: none; }
+  main { max-width: none; }
+  h2, h3 { break-after: avoid; }
+  .tableau, blockquote { break-inside: avoid; }
+}
