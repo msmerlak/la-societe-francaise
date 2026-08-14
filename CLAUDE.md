@@ -111,11 +111,13 @@ Le titre de l'entrée = **le chiffre**, pas le thème. « 20 148 morts par chute
 
 Trois agents dédiés se partagent le travail (`.claude/agents/`). La séparation est délibérée : celui qui collecte ne juge pas, celui qui juge ne réécrit pas, celui qui écrit n'invente aucun chiffre.
 
-| Agent | Rôle | Sa sortie est classée dans |
-|---|---|---|
-| **journaliste** | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | `collecte/NN-theme.md` |
-| **fact-checker** | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | `verifications/NN-theme.md` |
-| **editeur** | hiérarchise, attribue les indices de sous-exposition, ancre par les ratios, applique les verdicts, assemble le numéro | `index.md` — seul à y écrire |
+| Agent | Modèle | Rôle | Sa sortie est classée dans |
+|---|---|---|---|
+| **journaliste** | Haiku | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | `collecte/NN-theme.md` |
+| **fact-checker** | Sonnet | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | `verifications/NN-theme.md` |
+| **editeur** | Opus | hiérarchise, attribue les indices de sous-exposition, ancre par les ratios, applique les verdicts, assemble le numéro | `index.md` — seul à y écrire |
+
+Le modèle croît avec l'irréversibilité de la décision : la collecte est large et bon marché, la vérification demande de la rigueur, l'assemblage engage le numéro. Corollaire de ce choix — **le fact-checker n'est pas une formalité, c'est le filet du journaliste** : ratisser large avec un modèle rapide produit mécaniquement des relevés de champ approximatifs, et c'est le contrôle n° 3 qui les rattrape.
 
 Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
 
