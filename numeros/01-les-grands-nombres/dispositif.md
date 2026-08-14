@@ -51,11 +51,11 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 ## Gabarit d'une entrée du Top 10
 
 ```markdown
-### 3️⃣ **13,8 millions de personnes en affection de longue durée** — soit un Français sur cinq
+### 3️⃣ **13,7 millions de personnes en affection de longue durée** — et les deux tiers de la dépense remboursée
 
 **Indice de sous-exposition : 🔴 quasi invisible**
 
-| Donnée | Valeur (millésime **2022**) | Source |
+| Donnée | Valeur (millésime **2021**) | Source |
 |---|---|---|
 | … | … | … |
 
@@ -65,6 +65,17 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 ```
 
 **Le titre de l'entrée est le chiffre, pas le thème.** « 20 148 morts par chute chez les 65 ans et plus » et non « les chutes des personnes âgées ». Ajouter la comparaison d'ancrage dans le titre quand elle existe (« — six fois la route »).
+
+**Millésime du tableau.** Quand toutes les lignes d'un tableau partagent une année de mesure, elle est portée dans l'en-tête de colonne, comme ci-dessus. Quand l'entrée croise plusieurs millésimes, l'en-tête reste « Valeur » et chaque cellule porte son année : un millésime en en-tête vaudrait alors pour des lignes qu'il ne couvre pas.
+
+## Corrections apportées au dispositif le 14 août 2026
+
+Le gabarit ci-dessus donnait pour exemple « 13,8 millions de personnes en affection de longue durée — soit un Français sur cinq », avec un millésime 2022. Les vérifications ont invalidé les deux moitiés de la formule, et l'éditeur corrige ici son propre dispositif plutôt que de laisser un exemple fautif gouverner l'écriture du numéro.
+
+1. **La valeur.** Le 13,8 millions (2022) provient du *Points de repère* n° 54 de la CNAM, publication qui n'a pu être ouverte ni par le journaliste ni par le fact-checker : elle reste `[NON VÉRIFIÉ]` et n'est pas publiable. La valeur vérifiée en source primaire est 13,7 millions, millésime 2021, tous régimes (IGAS/IGF, *Revue de dépenses relative aux affections de longue durée*, juin 2024).
+2. **Le ratio.** « Un Français sur cinq » rapportait l'effectif à la population française. Le dénominateur réel de la source est de 68,7 millions de personnes « ayant eu au moins 1 euro de remboursement dans l'année », qui n'est pas la population résidente (67,4 millions au 1ᵉʳ janvier 2021). L'ancrage de titre est donc reporté sur la part de la dépense remboursée, qui est mesurée sur un périmètre unique.
+
+La leçon vaut au-delà de l'exemple : **un gabarit n'est pas une source.** Un chiffre inscrit dans le dispositif d'un numéro suit le même circuit de vérification que les autres, et tombe comme les autres.
 
 ## Émojis employés
 
