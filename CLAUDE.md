@@ -119,6 +119,8 @@ Trois agents dédiés se partagent le travail (`.claude/agents/`). La séparatio
 
 Le modèle croît avec l'irréversibilité de la décision : la collecte est large et bon marché, la vérification demande de la rigueur, l'assemblage engage le numéro. Corollaire de ce choix — **le fact-checker n'est pas une formalité, c'est le filet du journaliste** : ratisser large avec un modèle rapide produit mécaniquement des relevés de champ approximatifs, et c'est le contrôle n° 3 qui les rattrape.
 
+Les frontmatters portent les alias `haiku` / `sonnet` / `opus`, pas des identifiants figés : le dépôt suit ainsi les montées de version sans intervention. Au moment où ce choix a été fait (août 2026), ils désignaient respectivement Haiku 4.5, Sonnet 5 et Opus 5. Ce qui compte est le rang relatif, pas la génération — si un jour la collecte doit être épinglée pour reproduire un numéro à l'identique, c'est une décision de numéro, pas de dépôt.
+
 Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
 
 **Ordre d'intervention** : journaliste → fact-checker → editeur → fact-checker (passe finale sur le texte assemblé) → publication. Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
