@@ -111,11 +111,13 @@ Le titre de l'entrée = **le chiffre**, pas le thème. « 20 148 morts par chute
 
 Trois agents dédiés se partagent le travail (`.claude/agents/`). La séparation est délibérée : celui qui collecte ne juge pas, celui qui juge ne réécrit pas, celui qui écrit n'invente aucun chiffre.
 
-| Agent | Rôle | Écrit dans `numeros/` ? |
+| Agent | Rôle | Sa sortie est classée dans |
 |---|---|---|
-| **journaliste** | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | non |
-| **fact-checker** | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | non — aucun outil d'écriture |
-| **editeur** | hiérarchise, attribue les indices de sous-exposition, ancre par les ratios, applique les verdicts, assemble le numéro | oui — seul à le faire |
+| **journaliste** | ratisse les sources publiques primaires, relève valeur + millésime + champ + référence, rapporte aussi ses pistes non abouties | `collecte/NN-theme.md` |
+| **fact-checker** | rouvre chaque source, applique sept contrôles (existence, millésime, champ, cohérence, additivité, nature de la mesure, contestation), rend un verdict par chiffre | `verifications/NN-theme.md` |
+| **editeur** | hiérarchise, attribue les indices de sous-exposition, ancre par les ratios, applique les verdicts, assemble le numéro | `index.md` — seul à y écrire |
+
+Le journaliste dépose lui-même sa collecte ; ni lui ni le fact-checker ne peuvent écrire dans `index.md`. Le fact-checker n'a aucun outil d'écriture — il rend son verdict en sortie d'agent, et c'est l'éditeur ou la session principale qui le classe dans `verifications/`.
 
 **Ordre d'intervention** : journaliste → fact-checker → editeur → fact-checker (passe finale sur le texte assemblé) → publication. Un verdict `NON PUBLIABLE` bloque ; un chiffre `[NON VÉRIFIÉ]` est retiré ou renvoyé au journaliste, jamais publié au pari.
 
@@ -123,15 +125,28 @@ Le journaliste peut être lancé en plusieurs exemplaires en parallèle sur des 
 
 ## Organisation du dépôt
 
+**Un dossier par numéro.** Le texte publié n'est que la pointe : la matière collectée et les vérifications restent avec lui, dans le même dossier, pour que tout chiffre reste traçable jusqu'à sa source des mois après la parution.
+
 ```
-numeros/          un fichier Markdown par numéro : NN-slug.md
-.claude/agents/   journaliste, fact-checker, editeur
-CLAUDE.md         ce fichier
+numeros/
+  01-les-grands-nombres/
+    index.md            le numéro publié — seul fichier diffusé
+    collecte/           rapports du journaliste : matière brute sourcée
+      NN-theme.md
+    verifications/      rapports du fact-checker : verdicts par chiffre
+      NN-theme.md
+    media/              graphiques et images, si le numéro en a (optionnel)
+.claude/agents/         journaliste, fact-checker, editeur
+CLAUDE.md               ce fichier
 ```
 
 Toute autre arborescence (site statique, gabarits de newsletter, scripts de collecte) est à créer au moment où elle sert, pas par anticipation.
 
-**Nommage** : `numeros/01-les-grands-nombres.md`, numérotation sur deux chiffres, slug en minuscules sans accents.
+**Nommage** : dossier `NN-slug/` — numérotation sur deux chiffres, slug en minuscules sans accents. Le fichier publié s'appelle toujours `index.md`, quel que soit le numéro.
+
+**Ce qui est diffusé** : `index.md` uniquement. `collecte/` et `verifications/` sont des archives de travail — versionnées, jamais publiées, jamais élaguées. Un rapport de collecte dont les pistes n'ont pas abouti se garde : il dit au numéro suivant où l'on a déjà cherché.
+
+**Réutiliser un chiffre d'un numéro antérieur** se fait en repartant de son `verifications/`, pas de son `index.md` — et en revalidant le millésime, qui a pu changer depuis.
 
 **Commits** : en français, à l'impératif, portée en préfixe — `n°1 : corrige le millésime des données ALD`, `méthode : ajoute la règle de non-additivité`.
 
