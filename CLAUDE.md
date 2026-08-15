@@ -140,6 +140,8 @@ Tout ce qu'un numéro publie n'a pas à être vérifié au même degré, à cond
 
 Un numéro qui emploie le second niveau le déclare dans sa section « Méthode ». Ce qui reste interdit sans condition : publier une valeur dont personne n'a ouvert la source, quel que soit le niveau affiché.
 
+**Le niveau de confiance suit le chiffre, pas le paragraphe.** Si la même valeur reparaît ailleurs dans le numéro, elle emporte son marquage avec elle. Une valeur marquée à un endroit et pas à l'autre produit une fausse garantie : là où la mention manque, le lecteur croit lire du vérifié. Conséquence pratique — quand une valeur bascule de « collecté » à « vérifié », ce sont toutes ses occurrences qu'il faut reprendre, et on les cherche dans le fichier plutôt que de se fier au souvenir de l'endroit où on les a écrites.
+
 ### Ce qui circule entre les étages
 
 Le journaliste rend des **fiches**, jamais de la prose rédigée. Deux champs sont obligatoires et séparés :
