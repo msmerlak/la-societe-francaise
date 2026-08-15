@@ -48,7 +48,7 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 8. **Sources primaires** — regroupées par domaine.
 9. **Avertissement de clôture** en italique.
 
-## Gabarit d'une entrée du Top 10
+## Gabarit d'un article du Top 10
 
 ```markdown
 ### 3️⃣ **13,7 millions de personnes en affection de longue durée** — et les deux tiers de la dépense remboursée
@@ -61,12 +61,26 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 
 > **⚠️ Précautions de lecture** (quand le chiffre est piégeux)
 
-**Pourquoi c'est structurant :** … (2 à 4 paragraphes d'analyse)
+**Le mécanisme.** … comment le phénomène se produit
+**L'ancrage.** … la même série vingt ans plus tôt, les voisins européens, une grandeur familière
+**Ce que la mesure ne dit pas.** … la limite du chiffre, tirée des verdicts de vérification
+**L'objectif affiché et le résultat mesuré.** … quand un objectif public a été chiffré
+**Pourquoi ce rang.** … l'arbitrage entre les quatre critères, dit au lecteur
 ```
 
-**Le titre de l'entrée est le chiffre, pas le thème.** « 20 148 morts par chute chez les 65 ans et plus » et non « les chutes des personnes âgées ». Ajouter la comparaison d'ancrage dans le titre quand elle existe (« — six fois la route »).
+**Le titre de l'article est le chiffre, pas le thème.** « 20 148 morts par chute chez les 65 ans et plus » et non « les chutes des personnes âgées ». Ajouter la comparaison d'ancrage dans le titre quand elle existe (« — six fois la route »).
 
 **Millésime du tableau.** Quand toutes les lignes d'un tableau partagent une année de mesure, elle est portée dans l'en-tête de colonne, comme ci-dessus. Quand l'entrée croise plusieurs millésimes, l'en-tête reste « Valeur » et chaque cellule porte son année : un millésime en en-tête vaudrait alors pour des lignes qu'il ne couvre pas.
+
+**Les cinq rubriques d'analyse ne sont pas toutes obligatoires.** « L'objectif affiché et le résultat mesuré » ne s'écrit que si un objectif public a été chiffré ; les quatre autres sont dues. Elles ne sont pas des intertitres mais des amorces de paragraphe en gras, pour que l'article reste lisible d'un trait et que la newsletter n'y ajoute pas de niveau de titre.
+
+## Modification du gabarit le 15 août 2026 — l'entrée devient un article
+
+Le Top 10 était publié en entrées courtes : tableau, précautions, deux à quatre paragraphes de « pourquoi c'est structurant ». Les dix sujets sont désormais développés en articles d'environ deux pages (900 à 1 100 mots). Le peloton (rangs 11 à 20) reste en paragraphes denses : sa fonction dans ce dispositif est de montrer qu'il existe une queue de distribution, pas de la détailler.
+
+**Ce que ce développement n'autorise pas.** Aucun chiffre nouveau qui ne provienne d'une fiche de `collecte/`, aucun ratio non recalculé sur les valeurs des tableaux de l'article lui-même, aucune paraphrase en prose d'un tableau déjà donné. La longueur vient de quatre matériaux, et d'eux seuls : le mécanisme, l'ancrage comparatif, ce que la mesure ne dit pas, l'écart entre l'objectif affiché et le résultat mesuré. Les valeurs ajoutées à cette occasion et qui ne sont couvertes par aucun rapport de `verifications/` portent dans le texte la mention « niveau collecté », comme le prévoit déjà la section « Méthode » du numéro.
+
+**Une correction de fond emportée par la relecture.** L'entrée 3 écrivait que le retrait de l'ALD 12 de la liste en 2011 avait fait cesser de compter « plus de 250 000 personnes ». La fiche de collecte dit l'inverse : les 256 320 assurés relevés au titre de l'ALD 12 en 2022 sont un **effectif résiduel**, c'est-à-dire des droits ouverts avant 2011 et non éteints. Le fait démontre mieux encore la nature administrative de la série, mais dans l'autre sens, et le texte est corrigé.
 
 ## Corrections apportées au dispositif le 14 août 2026
 
