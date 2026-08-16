@@ -38,6 +38,8 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 
 ## Structure du numéro
 
+*Modifiée par la refonte du 16 août 2026, voir plus bas : une « Ouverture » s'intercale entre le chapô et la « Méthode », et le point 7 devient la conclusion du numéro.*
+
 1. **Titre + chapô** — état des données, nature des sources, avertissement sur les millésimes.
 2. **Méthode** — les quatre critères, puis les avertissements méthodologiques numérotés (non-additivité des décès attribuables ; fractions attribuables = modèles et non comptages ; les chiffres de délinquance mesurent en partie la propension à porter plainte ; certaines rassurances sont fondées).
 3. **Le Top 10** — entrées 1️⃣ à 🔟, gabarit ci-dessous.
@@ -49,6 +51,8 @@ L'indice se justifie en une ligne accolée au symbole (« 🟠 traité comme une
 9. **Avertissement de clôture** en italique.
 
 ## Gabarit d'un article du Top 10
+
+*Remplacé par le gabarit de la refonte du 16 août 2026, plus bas. Conservé ici parce que les règles de titre et de millésime qui le suivent restent en vigueur.*
 
 ```markdown
 ### 3️⃣ **13,7 millions de personnes en affection de longue durée** — et les deux tiers de la dépense remboursée
@@ -81,6 +85,76 @@ Le Top 10 était publié en entrées courtes : tableau, précautions, deux à qu
 **Ce que ce développement n'autorise pas.** Aucun chiffre nouveau qui ne provienne d'une fiche de `collecte/`, aucun ratio non recalculé sur les valeurs des tableaux de l'article lui-même, aucune paraphrase en prose d'un tableau déjà donné. La longueur vient de quatre matériaux, et d'eux seuls : le mécanisme, l'ancrage comparatif, ce que la mesure ne dit pas, l'écart entre l'objectif affiché et le résultat mesuré. Les valeurs ajoutées à cette occasion et qui ne sont couvertes par aucun rapport de `verifications/` portent dans le texte la mention « niveau collecté », comme le prévoit déjà la section « Méthode » du numéro.
 
 **Une correction de fond emportée par la relecture.** L'entrée 3 écrivait que le retrait de l'ALD 12 de la liste en 2011 avait fait cesser de compter « plus de 250 000 personnes ». La fiche de collecte dit l'inverse : les 256 320 assurés relevés au titre de l'ALD 12 en 2022 sont un **effectif résiduel**, c'est-à-dire des droits ouverts avant 2011 et non éteints. Le fait démontre mieux encore la nature administrative de la série, mais dans l'autre sens, et le texte est corrigé.
+
+## Refonte de forme du 16 août 2026 — le numéro devient un journal
+
+Aucun chiffre, aucune source, aucune réserve n'a changé à cette occasion : l'état des données reste celui du 14 août 2026. Ce qui change est l'ordre du texte, la longueur relative des articles, et deux sections nouvelles.
+
+### Le gabarit d'article, refait
+
+Le gabarit de la section « Gabarit d'un article du Top 10 » ci-dessus est remplacé par celui-ci, appliqué aux dix articles. Le motif : dans la version du 15 août, le lecteur traversait une trentaine de lignes d'appareil — indice, trois tableaux empilés, encadré de précautions — avant la première phrase lui disant quoi en penser.
+
+```markdown
+### 3️⃣ **titre : le chiffre, puis l'ancrage**
+
+attaque — deux ou trois phrases de prose portent le résultat, avant tout tableau
+
+| tableau principal |
+
+#### intertitre de développement
+prose, puis le tableau secondaire au paragraphe qui l'emploie
+
+#### Pourquoi ce rang
+l'arbitrage entre les quatre critères
+
+**Indice de sous-exposition : 🔴** — motif en une ligne
+
+> **⚠️ Précautions de lecture.** …
+```
+
+Cinq déplacements, éprouvés d'abord sur un spécimen de l'article 1, puis généralisés :
+
+1. **Une attaque avant tout appareil.**
+2. **Un tableau à la fois, là où il sert** — les tableaux secondaires descendent au paragraphe qui les emploie.
+3. **Les précautions de lecture ferment l'article.** Elles arment un lecteur qui sait déjà de quoi il s'agit ; en tête, elles arrêtent celui qui l'ignore encore. Elles ne sont jamais allégées par ce déplacement, et deux d'entre elles ont au contraire absorbé une réserve qui vivait dans le corps du texte (articles 1 et 9).
+4. **Des intertitres de niveau `####`** quand une amorce ouvre un développement. Les amorces en gras du gabarit précédent — « Le mécanisme », « L'ancrage », « Ce que la mesure ne dit pas » — disparaissent quand elles n'annonçaient qu'un paragraphe. La contrainte de newsletter qui les avait fait préférer aux titres est levée : `####` reste du Markdown standard.
+5. **La justification du rang ferme l'argument**, avec l'indice de sous-exposition, au lieu de l'ouvrir.
+
+### La hiérarchie de longueur, et son critère
+
+Dix articles de même poids ne font pas un journal. Les articles sont répartis en trois rangs de longueur :
+
+| Rang de longueur | Articles | Motif |
+|---|---|---|
+| Développé | 1, 3, 7, 8 | le numéro s'y joue, ou la mesure y est la plus piégeuse |
+| Moyen | 2, 4, 5, 6 | masses déjà notoires, dont l'apport tient dans une décomposition |
+| Brève dense | 9, 10 | une seule opération de lecture, que les tableaux portent presque seuls |
+
+**La longueur ne suit pas le rang** — sans quoi elle ne dirait rien de plus que lui. Elle suit la quantité d'appareil qu'un chiffre exige pour être lu sans contresens, et le nombre d'autres articles qu'il commande. D'où les quatre articles développés : le 1ᵉʳ parce qu'il commande cinq autres et ouvre le numéro ; le 3ᵉ et le 8ᵉ parce qu'ils portent les deux seuls 🔴 et que leur mesure est la plus traîtresse du numéro — un effectif administratif que des règles d'entrée déplacent, une hausse dont la source impute la totalité à l'enregistrement ; le 7ᵉ parce qu'il porte la plus grosse masse de vies, une interdiction d'addition et une estimation contestée, trois choses qu'on ne peut pas écrire vite. Le 2ᵉ, charnière du numéro, est traité en moyen sans contradiction : son argument décisif tient dans une seule ligne de sa source, et une démonstration courte n'a pas besoin d'un texte long.
+
+### Ouverture et conclusion
+
+**Une ouverture** précède désormais la « Méthode ». Ce n'est pas un résumé des dix résultats — le tableau de synthèse le fait — mais une vue d'ensemble problématique : la question, la tension entre poids réel et poids médiatique, et ce que l'enquête a trouvé de contre-intuitif. Elle porte l'argument, pas les données ; les rares chiffres qu'elle cite figurent déjà dans le numéro et emportent avec eux leur niveau de confiance. La « Méthode » en est resserrée d'autant : elle n'a plus la charge d'accrocher le lecteur, et conserve les quatre critères, le critère écarté, les deux niveaux de confiance, les quatre avertissements de lecture et ce que le numéro écarte.
+
+**La section sur la structure du biais devient la conclusion** — dernier texte du numéro avant les seules annexes que sont les sources primaires et l'avertissement de clôture. Elle est réécrite comme telle, sous trois contraintes :
+
+- elle explique par des mécanismes — biais d'événement, d'identification, d'agentivité, d'âge, de décalage temporel — et ne met en cause aucun groupe ; aucun de ces mécanismes ne suppose d'intention ;
+- chaque biais nommé est rattaché à des articles précis, plutôt qu'énoncé en général ;
+- elle rappelle en ouverture ce que le numéro n'a pas mesuré. La « Méthode » écarte la fréquence de citation médiatique comme instrument : le numéro peut exhiber l'écart entre une masse et le traitement qu'elle reçoit, il ne l'a pas quantifié, et l'indice de sous-exposition est un jugement déclaré. C'est ce qui sépare cette conclusion d'un réquisitoire.
+
+Un sixième mécanisme y est ajouté, tiré de la matière du numéro et non de l'angle : la mesure se déplace en même temps que la chose mesurée — tabac, particules fines, chutes —, et c'est chaque fois le producteur de la donnée qui porte la réserve. Il explique aussi pourquoi la rubrique des contre-paniques existe.
+
+### Une incohérence interne corrigée
+
+Le commentaire du tableau de synthèse annonçait « trois articles » portant l'indice 🔴 quand le tableau n'en porte que deux, et la conclusion comptait « trente pathologies » d'ALD quand l'article 3 en compte vingt-neuf. Deux décomptes internes au numéro, corrigés sans que la valeur d'aucune source soit touchée.
+
+### Ce que la refonte n'a pas obtenu, et pourquoi
+
+La cible de réécriture était d'environ 14 000 mots contre 19 000, à chiffres, sources et réserves constants. Elle n'est pas atteinte : le numéro passe de 19 139 à 18 960 mots, la prose des articles reculant d'environ un cinquième pendant que l'ouverture, la conclusion et les dix attaques ajoutent quelque 1 700 mots.
+
+Le motif est arithmétique et mérite d'être noté pour les numéros suivants. Ce qui n'est pas compressible sans retirer un chiffre, une réserve ou une source — les 36 tableaux, les dix encadrés de précautions, le peloton, les faux grands nombres, les sources primaires — pèse à lui seul de l'ordre de 12 000 mots. Atteindre 14 000 supposerait de ramener la prose des dix articles à moins de 300 mots chacun, c'est-à-dire d'écrire les articles de tête à la densité des entrées du peloton, ou de renoncer à des valeurs. Le dispositif retient l'ordre de priorité du CLAUDE.md : les règles de fond priment sur la forme, la contrainte de longueur cède la première. La hiérarchie de longueur, elle, est tenue en ordre — aucun article moyen n'est plus long qu'un article développé, aucune brève n'est plus longue qu'un article moyen — mais son amplitude reste faible, de 1 000 à 1 550 mots environ.
+
+La leçon pour un numéro futur : un objectif de volume se fixe **avant** la collecte, parce qu'après la vérification il ne peut plus être tenu que par la suppression de chiffres déjà vérifiés.
 
 ## Corrections apportées au dispositif le 14 août 2026
 
