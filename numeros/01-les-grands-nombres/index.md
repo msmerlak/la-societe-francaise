@@ -139,7 +139,7 @@ Par la masse, cet article arrive dernier : trois de nos quatre critères le cla
 
 ### 2️⃣ **4,3 millions de personnes de 80 ans ou plus aujourd'hui, 9 millions en 2070** — et le vieillissement de 2040 est déjà joué
 
-Le nombre de personnes de 80 ans et plus doublerait d'ici 2070, celui des centenaires serait multiplié par 4,3, et la population totale reculerait après un pic en 2037. Ces trajectoires sont des scénarios. Le fait qui n'en est pas un tient en une ligne : à l'horizon 2040, la structure par âge du pays ne dépend plus d'aucune décision à venir, parce que les personnes concernées sont nées.
+Les 80 ans et plus doubleraient d'ici 2070, les centenaires seraient multipliés par 4,3, la population reculerait après un pic en 2037. Ces trajectoires sont des scénarios ; le fait qui n'en est pas un est qu'à l'horizon 2040, la structure par âge ne dépend plus d'aucune décision à venir, les personnes concernées étant nées.
 
 | Tranche d'âge | 2026 → 2070 (scénario central) | Source |
 |---|---|---|
@@ -151,9 +151,9 @@ Le nombre de personnes de 80 ans et plus doublerait d'ici 2070, celui des cente
 
 #### Trois moteurs, dont le troisième est une soustraction
 
-Le premier moteur est l'allongement de la vie, mais l'essentiel de son effet à horizon 2040 est **déjà acquis** : ce sont des gains d'espérance de vie réalisés dans les décennies passées, non ceux à venir. Le deuxième est un simple passage de seuil : les générations nées de 1961 à 1974, les plus nombreuses de l'histoire démographique du pays, franchissent 65 ans dans la période. Le troisième n'est pas une expansion mais une contraction — la baisse des naissances de l'article 1, qui retire 4,8 millions de personnes de moins de 20 ans et 4,1 millions de 20-44 ans à l'horizon 2070, pendant que la tranche 45-64 reste rigoureusement stable.
+Le premier moteur est l'allongement de la vie, mais l'essentiel de son effet à horizon 2040 est **déjà acquis** : ce sont des gains réalisés dans les décennies passées, non ceux à venir. Le deuxième est un passage de seuil : les générations nées de 1961 à 1974, les plus nombreuses de l'histoire démographique du pays, franchissent 65 ans dans la période. Le troisième est une contraction — la baisse des naissances de l'article 1, qui retire 4,8 millions de personnes de moins de 20 ans et 4,1 millions de 20-44 ans d'ici 2070, pendant que la tranche 45-64 reste stable.
 
-C'est ce troisième moteur qui échappe le plus souvent au récit : le vieillissement d'un pays n'est pas seulement l'arrivée de vieux, c'est aussi la non-arrivée de jeunes. L'INSEE décrit la déformation de la pyramide des âges en « toupie », avec un rétrécissement marqué de la base. Une population dont le sommet grossit et dont la base se rétracte vieillit deux fois, et le rapport de dépendance en additionne les deux effets sans les distinguer.
+C'est ce troisième moteur qui échappe au récit : vieillir, pour un pays, c'est aussi ne pas voir arriver de jeunes. L'INSEE décrit une pyramide des âges déformée en « toupie », dont la base se rétracte pendant que le sommet grossit ; le rapport de dépendance additionne les deux effets sans les distinguer.
 
 #### Vingt années déjà écoulées, mesurées et non projetées
 
@@ -163,9 +163,7 @@ C'est ce troisième moteur qui échappe le plus souvent au récit : le vieillis
 | Moins de 20 ans | 25,1 % → 22,5 % | id. |
 | 75 ans ou plus | 8,2 % → 11,1 % | id. |
 
-Ce tableau vaut démonstration parce qu'il ne suppose aucune hypothèse. L'écart entre les deux premiers groupes, de 8,7 points en faveur des jeunes en 2006, tombe à 0,3 point en 2026 : les deux courbes sont sur le point de se croiser. En 2070, selon le scénario central, les 65 ans et plus représenteraient 32 % de la population, soit le double des moins de 20 ans.
-
-Les ordres de grandeur de la projection se recalculent à partir du tableau d'ouverture : les 80 ans et plus sont multipliés par 2,1, les centenaires par 4,3. Mais 160 000 centenaires en 2070 représenteraient 0,24 % de la population, contre 0,05 % aujourd'hui : ce sont les 80 ans et plus qui portent la masse.
+Ce tableau ne suppose aucune hypothèse : l'écart entre les deux premiers groupes, de 8,7 points en faveur des jeunes en 2006, tombe à 0,3 point en 2026, et les 65 ans et plus feraient en 2070 32 % de la population, le double des moins de 20 ans. Les projections, elles, se recalculent sur le tableau d'ouverture — ×2,1 pour les 80 ans et plus, ×4,3 pour les centenaires —, mais 160 000 centenaires ne feraient que 0,24 % de la population contre 0,05 % aujourd'hui : la masse est portée par les 80 ans et plus.
 
 #### Ce qui est certain à 2040, et ce qui ne l'est plus à 2070
 
@@ -176,9 +174,9 @@ Les ordres de grandeur de la projection se recalculent à partir du tableau d'ou
 | Bornes selon la fécondité seule, 2070 | 61,3 millions (ICF 1,20) à 70,8 millions (ICF 1,70) | id. |
 | Borne basse selon la migration seule, 2070 | 60,9 millions | id. |
 
-L'argument décisif tient dans une seule ligne de la source : à l'horizon 2040, le rapport de dépendance est compris entre 47 et 51 selon les scénarios, contre 40 en 2026. La fourchette a quatre points de large, et le scénario de « population jeune » lui-même donne 47. À l'horizon 2070, la même grandeur s'étale de 50 à 78 : l'incertitude redevient forte, mais elle porte sur l'ampleur, pas sur le sens.
+L'argument décisif tient dans une ligne de la source : à l'horizon 2040, le rapport de dépendance est compris entre 47 et 51 selon les scénarios, contre 40 en 2026, et le scénario de « population jeune » lui-même donne 47. À l'horizon 2070, il s'étale de 50 à 78 : l'incertitude porte alors sur l'ampleur, pas sur le sens.
 
-Ces fourchettes ne sont pas des marges d'erreur statistiques. Elles proviennent d'un jeu de 27 scénarios, construits après consultation de 220 experts dont 84 ont répondu : une projection est un raisonnement conditionnel rendu explicite, pas une prédiction assortie d'un intervalle de confiance.
+Ces fourchettes ne sont pas des marges d'erreur : elles viennent de 27 scénarios construits après consultation de 220 experts dont 84 ont répondu. Une projection est un raisonnement conditionnel rendu explicite, pas une prédiction.
 
 | Hypothèses et amplitudes | Valeur | Source |
 |---|---|---|
@@ -188,13 +186,11 @@ Ces fourchettes ne sont pas des marges d'erreur statistiques. Elles proviennent 
 | Population en 2070, scénarios extrêmes | 54,6 à 78,3 millions | id. |
 | Centenaires en 2070, scénarios extrêmes | 90 000 à 360 000, soit un rapport de 1 à 4 | id. |
 
-La sensibilité est maximale sur la seule classe d'âge où l'incertitude de mortalité se cumule à celle de migration. Une seule composition change par ailleurs de manière non triviale : la part des hommes parmi les 80 ans et plus passerait de 38 % à 44 %, et parmi les centenaires de 15 % à 30 %.
+La sensibilité est maximale sur la seule classe d'âge où l'incertitude de mortalité se cumule à celle de migration. Une composition change par ailleurs : la part des hommes passerait de 38 % à 44 % parmi les 80 ans et plus, et de 15 % à 30 % parmi les centenaires.
 
 #### Pourquoi ce rang
 
-La durée et l'irréversibilité classent cet article devant des masses financières bien plus grandes : il est la charnière du numéro. La hausse de 55 % du rapport de dépendance suffit à faire croître mécaniquement quatre autres articles — l'effectif des affections de longue durée, dont l'âge moyen dépasse de plus de vingt ans celui de la population générale (article 3) ; la masse des prestations vieillesse-survie, premier poste social du pays (article 4) ; la mortalité par chute, concentrée sur les 85 ans et plus (article 8) ; le besoin d'aide informelle (article 9).
-
-Le deuxième rang plutôt que le premier tient à ce que le vieillissement est lui-même une conséquence de la fécondité de l'article 1 et de gains de longévité passés : il commande beaucoup et n'est commandé que par une chose.
+La durée et l'irréversibilité classent cet article devant des masses financières bien plus grandes : la hausse de 55 % du rapport de dépendance fait croître mécaniquement quatre autres articles — les affections de longue durée (article 3), les prestations vieillesse-survie (article 4), la mortalité par chute (article 8), le besoin d'aide informelle (article 9). Le deuxième rang plutôt que le premier tient à ce que le vieillissement est lui-même une conséquence de la fécondité de l'article 1 : il commande beaucoup et n'est commandé que par une chose.
 
 **Indice de sous-exposition : 🟠** — sujet omniprésent en discours, ampleur rarement chiffrée.
 
@@ -274,7 +270,7 @@ Ni la masse ni l'irréversibilité ne justifieraient le troisième rang : 13,7 
 
 ### 4️⃣ **932,5 Md€ de prestations sociales, 31,9 % du PIB** — 4,6 points de plus que la moyenne européenne
 
-C'est la grandeur financière la plus lourde du numéro, et ce n'est pas un budget : aucune enveloppe n'est votée à ce niveau. L'agrégat couvre tous les régimes et tous les financeurs, et sa masse est un produit — un effectif d'ayants droit multiplié par un barème — hérité de décisions antérieures.
+C'est la grandeur financière la plus lourde du numéro, et ce n'est pas un budget : aucune enveloppe n'est votée à ce niveau. L'agrégat couvre tous les régimes et tous les financeurs, et sa masse est un produit — un effectif d'ayants droit par un barème — hérité de décisions antérieures. La décomposition y compte donc davantage que le total.
 
 | Donnée | Valeur (millésime **2024**) | Source |
 |---|---|---|
@@ -292,7 +288,7 @@ C'est la grandeur financière la plus lourde du numéro, et ce n'est pas un budg
 | Pauvreté et exclusion sociale | 34,0 Md€ | 3,6 % |
 | Logement | 16,1 Md€ | 1,7 % |
 
-La décomposition compte davantage que le total. Le premier poste se partage entre 381,6 Md€ de vieillesse et 45,1 Md€ de survie (niveau collecté) : il suit la structure par âge de l'article 2 et le stock de droits accumulés, non un arbitrage annuel. Le deuxième est composé à 82 % du sous-risque maladie, soit 278 Md€, l'équivalent de 9,5 % du PIB (niveau collecté), et il est adossé à la concentration que décrit l'article 3. À eux deux, ces risques pèsent 82,1 % de l'ensemble — la source arrondit à 80 % — contre 167 Md€, soit 18 %, pour les quatre autres réunis.
+Le premier poste, 381,6 Md€ de vieillesse et 45,1 Md€ de survie (niveau collecté), suit la structure par âge de l'article 2 et le stock de droits accumulés, non un arbitrage annuel. Le deuxième est composé à 82 % du sous-risque maladie, soit 278 Md€, l'équivalent de 9,5 % du PIB (niveau collecté), adossé à la concentration que décrit l'article 3. À eux deux, 82,1 % de l'ensemble — la source arrondit à 80 % — contre 167 Md€, soit 18 %, pour les quatre autres.
 
 #### La part n'est pas sur une pente
 
@@ -305,7 +301,7 @@ La décomposition compte davantage que le total. Le premier poste se partage ent
 | 2023 | 31,5 % | 26,7 % |
 | 2024 | 31,9 % | 27,3 % |
 
-Cette série des six dernières années est relevée sur le graphique 2 de la source (niveau collecté). Le pic de 2020 est autant un effet de dénominateur — le PIB a reculé de 7,4 % cette année-là — qu'un effet de dépense, et il s'est résorbé. L'écart à la moyenne européenne, repère le plus lisible de cet article, se resserre : 4,9 points en 2019, 4,6 en 2024, la hausse de 2024 étant plus rapide dans l'Union (+6,9 %) qu'en France (+4,8 %) ; rapporté aux prestations elles-mêmes, il en représente environ le septième. Selon les premières estimations par pays, la Finlande deviendrait en 2024 le premier pays d'Europe pour ces dépenses, à 32,5 % de son PIB, devant la France (niveau collecté, comme la comparaison des rythmes de progression).
+Cette série est relevée sur le graphique 2 de la source (niveau collecté). Le pic de 2020 tient autant au dénominateur — le PIB a reculé de 7,4 % cette année-là — qu'à la dépense, et il s'est résorbé. L'écart à la moyenne européenne, repère le plus lisible de l'article, se resserre : 4,9 points en 2019, 4,6 en 2024, la hausse de 2024 étant plus rapide dans l'Union (+6,9 %) qu'en France (+4,8 %) ; il vaut environ le septième des prestations. Selon les premières estimations par pays, la Finlande passerait en 2024 devant la France, à 32,5 % de son PIB (niveau collecté, comme la comparaison des rythmes).
 
 #### Volume et prix ne vont pas dans le même sens
 
@@ -327,15 +323,15 @@ La masse croît et la prestation individuelle recule sans que les deux mouvement
 | 13,9 % (407 Md€) | « système de retraite », régimes légalement obligatoires y compris FSV, hors RAFP — COR | 2024 |
 | 14,6 % (426,7 Md€) | risque vieillesse-survie ESSPROS, minimum vieillesse et dépendance inclus — DREES | 2024 |
 
-L'élément de réconciliation vient de la source elle-même : le champ des pensions des régimes légalement obligatoires représente **92 %** du risque vieillesse-survie la même année. L'écart se décompose en un effet de champ documenté, un effet de millésime, et un troisième périmètre, celui du COR. Ce numéro n'en élit aucun : 1,5 point de PIB sépare la plus basse de la plus haute sans qu'aucun des trois producteurs se trompe, et un débat qui en cite une sans dire laquelle transporte cet écart sans le savoir.
+La source donne elle-même la réconciliation : le champ des pensions des régimes légalement obligatoires représente **92 %** du risque vieillesse-survie la même année, le reste tenant au millésime et au périmètre propre du COR. Ce numéro n'en élit aucune : 1,5 point de PIB sépare la plus basse de la plus haute sans qu'aucun producteur se trompe, et un débat qui en cite une sans dire laquelle transporte cet écart sans le savoir.
 
 #### Le contrepoint
 
-En 2024, un risque sur six recule : celui de la pauvreté et de l'exclusion sociale, de 3,3 %, par arrêt du chèque énergie exceptionnel et de l'aide carburant. Les cinq autres progressent — vieillesse-survie de 6,5 %, famille de 4,7 %, emploi de 3,8 %, logement de 1,9 % après six années consécutives de repli, et la santé avec eux. Le seul poste en baisse est celui qui vise les ménages les plus modestes ; l'article 10 en donne la contrepartie mesurée du côté des personnes.
+Un risque sur six recule en 2024 : la pauvreté et l'exclusion sociale, de 3,3 %, par arrêt du chèque énergie exceptionnel et de l'aide carburant. Les cinq autres progressent — vieillesse-survie de 6,5 %, famille de 4,7 %, emploi de 3,8 %, logement de 1,9 % après six années de repli, et la santé avec eux. Le seul poste en baisse vise les ménages les plus modestes ; l'article 10 en donne la contrepartie du côté des personnes.
 
 #### Pourquoi ce rang
 
-La masse plaide pour le rang 1 : c'est quatorze fois la charge d'intérêts de l'article 6. L'effet de levier plaide contre : le premier poste, à lui seul 45,8 % du total, suit la structure par âge de l'article 2, et une masse qui obéit ne peut pas être classée avant celle à laquelle elle obéit.
+La masse plaide pour le rang 1 : quatorze fois la charge d'intérêts de l'article 6. L'effet de levier plaide contre : le premier poste, 45,8 % du total, suit la structure par âge de l'article 2, et une masse qui obéit ne se classe pas avant celle à laquelle elle obéit.
 
 **Indice de sous-exposition : 🟠** — le total est très cité, sa décomposition ne l'est presque jamais.
 
@@ -345,7 +341,7 @@ La masse plaide pour le rang 1 : c'est quatorze fois la charge d'intérêts de 
 
 ### 5️⃣ **367 Mt CO₂e en 2024, le plus bas niveau depuis 1990** — une baisse de 3,0 % par an quand la trajectoire adoptée en juillet 2026 en demande 5 à 6
 
-Les émissions territoriales de la France n'ont jamais été aussi basses depuis l'ouverture de la série en 1990. C'est le seul article de ce numéro dont le grand nombre n'est pas un niveau mais un écart de rythme : la baisse constatée est réelle, et elle vaut environ la moitié de celle qu'exige la trajectoire adoptée par décret le 16 juillet 2026.
+Les émissions territoriales n'ont jamais été aussi basses depuis l'ouverture de la série en 1990. C'est le seul article du numéro dont le grand nombre est un écart de rythme et non un niveau : la baisse constatée vaut environ la moitié de celle qu'exige la trajectoire adoptée par décret le 16 juillet 2026.
 
 | Donnée | Valeur | Source |
 |---|---|---|
@@ -366,9 +362,9 @@ Les émissions territoriales de la France n'ont jamais été aussi basses depuis
 | Énergie | 9 % | id. |
 | Déchets | 4 % | id. |
 
-Les deux premiers secteurs pèsent ensemble 55 % du total, et leur décarbonation suppose de renouveler des parcs — véhicules, chaudières, bâtiments — dont la durée de vie se compte en décennies, ou de modifier des systèmes de production agricole. Le transport routier à lui seul émet 117 Mt CO₂e sur les 125 Mt du secteur.
+Les deux premiers secteurs pèsent 55 % du total, et leur décarbonation suppose de renouveler des parcs dont la durée de vie se compte en décennies, ou de modifier des systèmes de production agricole. Le transport routier émet à lui seul 117 Mt CO₂e sur les 125 Mt du secteur.
 
-Le puits de carbone joue en sens inverse : il n'est pas une émission mais une soustraction, et cette soustraction s'affaiblit. D'environ −63 Mt CO₂e dans les années 2000, il est tombé à −46 Mt en 2017, sous l'effet de la mortalité des arbres — sécheresses, parasites, incendies —, du ralentissement de leur croissance et de la hausse des récoltes. Ce qu'il ne compense plus s'ajoute au solde net sans qu'aucune émission nouvelle ait eu lieu. Le Haut Conseil pour le climat ajoute que sa stabilisation apparente « ne reflète que le stockage temporaire de carbone dans le bois mort », lui-même « le signe de la dégradation de l'état des forêts ».
+Le puits de carbone joue en sens inverse : il n'est pas une émission mais une soustraction, et elle s'affaiblit. D'environ −63 Mt CO₂e dans les années 2000, il est tombé à −46 Mt en 2017 — mortalité des arbres, ralentissement de leur croissance, hausse des récoltes —, et ce qu'il ne compense plus s'ajoute au solde net sans qu'aucune émission nouvelle ait eu lieu. Le Haut Conseil pour le climat ajoute que sa stabilisation apparente « ne reflète que le stockage temporaire de carbone dans le bois mort », lui-même « le signe de la dégradation de l'état des forêts ».
 
 #### La trajectoire adoptée, et ce qui a été émis en regard
 
@@ -378,28 +374,28 @@ Le puits de carbone joue en sens inverse : il n'est pas une émission mais une 
 | 2029-2033 | 262 Mt CO₂e | — |
 | 2034-2038 | 194 Mt CO₂e | — |
 
-Les émissions baissent sans interruption depuis 2018, hors rebond post-Covid de 2021. Atteindre 274 Mt en 2030 suppose néanmoins de retrancher 93 Mt en six ans, quand la dernière année en a retranché 11,2. La contrainte suivante, 262 Mt par an, suppose un niveau inférieur de plus d'un quart à celui de 2025. Le repère européen est du même ordre de raideur : la Commission a confirmé en juillet 2025, et le Parlement approuvé en février 2026, un objectif de réduction de 90 % des émissions nettes de l'Union d'ici 2040 par rapport à 1990 (niveau collecté).
+Les émissions baissent sans interruption depuis 2018, hors rebond post-Covid de 2021. Atteindre 274 Mt en 2030 suppose néanmoins d'en retrancher 93 en six ans, quand la dernière année en a retranché 11,2 ; la contrainte suivante, 262 Mt par an, suppose un niveau inférieur de plus d'un quart à celui de 2025. Le repère européen est aussi raide : la Commission a confirmé en juillet 2025, et le Parlement approuvé en février 2026, une réduction de 90 % des émissions nettes de l'Union d'ici 2040 par rapport à 1990 (niveau collecté).
 
 #### L'objectif affiché et le résultat mesuré
 
-La cible a bougé avant d'être arrêtée : le projet de stratégie nationale bas-carbone visait 270 Mt CO₂e pour 2030 dans sa version de juin 2025, 274 Mt dans celle soumise à consultation un an plus tard, et c'est cette dernière que le décret du 16 juillet 2026 a fixée. Sur la période précédente, le deuxième budget carbone (2019-2023) a été respecté pour les émissions brutes — 370 Mt en moyenne contre 380 autorisés —, mais il ne l'a été ni pour les déchets ni pour le puits de carbone (niveau collecté pour ce paragraphe). Le Haut Conseil pour le climat ajoute la réserve décisive : « en considérant directement comme une émission la mortalité (sans stockage temporaire dans le bois mort), ce budget n'aurait pas été atteint ». Un objectif tenu par une convention comptable sur le bois mort n'est pas tout à fait un objectif tenu.
+La cible a bougé avant d'être arrêtée : 270 Mt CO₂e pour 2030 dans le projet de juin 2025, 274 Mt dans la version soumise à consultation un an plus tard, celle qu'a fixée le décret du 16 juillet 2026. Le deuxième budget carbone (2019-2023) a été respecté pour les émissions brutes — 370 Mt en moyenne contre 380 autorisés —, mais ni pour les déchets ni pour le puits de carbone (niveau collecté pour ce paragraphe), et le Haut Conseil pour le climat y ajoute la réserve décisive : « en considérant directement comme une émission la mortalité (sans stockage temporaire dans le bois mort), ce budget n'aurait pas été atteint ». Un objectif tenu par une convention comptable sur le bois mort n'est pas tout à fait un objectif tenu.
 
-#### Un inventaire se révise, et il ne mesure pas ce que le pays consomme
+#### Un inventaire se révise, et ne mesure pas la consommation
 
-Pour la seule année 2024, deux valeurs ont été publiées : 369 Mt en pré-estimation en juin 2025, 367 Mt en inventaire consolidé un an plus tard, soit une baisse de 1,8 % annoncée puis de 3,0 % constatée — un progrès supérieur des deux tiers à ce qui avait d'abord été dit. Le Citepa l'impute à trois mouvements que la méthode rapide ne capte pas : la production d'électricité à La Réunion, le facteur d'émission de la sidérurgie et les fluides frigorigènes. Une trajectoire climatique se juge avec deux ans de retard.
+Pour la seule année 2024, deux valeurs ont été publiées : 369 Mt en pré-estimation en juin 2025, 367 Mt en inventaire consolidé un an plus tard, soit une baisse de 1,8 % annoncée puis de 3,0 % constatée — un progrès supérieur des deux tiers à ce qui avait d'abord été dit, que le Citepa impute à trois mouvements que la méthode rapide ne capte pas : la production d'électricité à La Réunion, le facteur d'émission de la sidérurgie et les fluides frigorigènes. Une trajectoire climatique se juge avec deux ans de retard.
 
-L'inventaire mesure par ailleurs ce que le pays émet sur son sol, non ce qu'il consomme. L'écart est considérable (niveau collecté) :
+L'inventaire mesure enfin ce que le pays émet sur son sol, non ce qu'il consomme (niveau collecté) :
 
 | Mesure (millésime 2023) | France | Par personne |
 |---|---|---|
 | Émissions territoriales brutes | 376 Mt CO₂e | 5,5 t CO₂e |
 | Empreinte carbone, importations incluses | 644 Mt CO₂e | 9,4 t CO₂e |
 
-L'empreinte vaut 1,7 fois l'inventaire, et plus de la moitié en est constituée d'émissions importées, en hausse depuis 2016 quand les émissions produites en France baissent depuis 2010 : une part de la performance territoriale est un déplacement, non une disparition. L'année 2024 n'est pas encore estimée pour cet indicateur.
+L'empreinte vaut 1,7 fois l'inventaire, et plus de la moitié en est constituée d'émissions importées, en hausse depuis 2016 quand les émissions produites en France baissent depuis 2010 : une part de la performance territoriale est un déplacement, non une disparition. L'année 2024 n'est pas encore estimée.
 
 #### Pourquoi ce rang
 
-L'irréversibilité et la durée sont ici maximales, et c'est ce qui classe cet article au cinquième rang malgré un effet de levier faible sur le reste du numéro.
+L'irréversibilité et la durée sont ici maximales, et classent l'article au cinquième rang malgré un effet de levier faible sur le reste du numéro.
 
 **Indice de sous-exposition : 🟡** — le climat est très traité, mais le décrochage entre une courbe qui progresse et une trajectoire réglementaire qui progresse plus vite ne se voit que si l'on met les deux dans le même tableau.
 
@@ -409,7 +405,7 @@ L'irréversibilité et la durée sont ici maximales, et c'est ce qui classe cet 
 
 ### 6️⃣ **64,9 Md€ d'intérêts de la dette en 2025** — plus que l'enseignement scolaire, plus que la défense
 
-Le service de la dette coûte davantage que ce que l'État consacre à scolariser le pays, et davantage que ce qu'il consacre à le défendre — la comparaison est de la Cour des comptes. Cette charge n'est presque pas décidée l'année où elle est payée : elle est le produit d'un encours accumulé sur des décennies et du taux moyen auquel il est porté.
+Le service de la dette coûte davantage que ce que l'État consacre à scolariser le pays, et davantage qu'à le défendre — la comparaison est de la Cour des comptes. Cette charge n'est presque pas décidée l'année où elle est payée : elle est le produit d'un encours accumulé sur des décennies et du taux moyen auquel il est porté.
 
 | Donnée | Valeur (millésime **2025**) | Source |
 |---|---|---|
@@ -419,7 +415,7 @@ Le service de la dette coûte davantage que ce que l'État consacre à scolarise
 
 #### Une dépense qui se décide sur dix ans
 
-La maturité moyenne des titres de dette publique française est de huit ans selon la Cour des comptes (niveau collecté) : une année ordinaire ne renouvelle qu'une fraction du stock, le taux moyen payé se déplace lentement, dans les deux sens, et une hausse de marché met des années à produire son plein effet budgétaire.
+La maturité moyenne des titres est de huit ans (niveau collecté) : une année ordinaire ne renouvelle qu'une fraction du stock, le taux moyen payé se déplace lentement, dans les deux sens, et une hausse de marché met des années à produire son plein effet budgétaire.
 
 | Financement de l'État en 2026 (prévu) | Montant | Source |
 |---|---|---|
@@ -429,7 +425,7 @@ La maturité moyenne des titres de dette publique française est de huit ans sel
 | Émissions à moyen et long terme | 310,0 Md€ | id. |
 | Encours de dette négociable de l'État, fin 2024 | 2 541,6 Md€ en valeur nominale (niveau collecté) | id. |
 
-Les deux lignes en « dont » ne reconstituent pas le besoin de financement : d'autres postes de trésorerie s'y ajoutent. Les 310,0 Md€ d'émissions représentent environ 12 % de l'encours, c'est-à-dire la fraction du stock qui se renégocie chaque année aux conditions du moment.
+Les deux lignes en « dont » ne reconstituent pas le besoin de financement : d'autres postes de trésorerie s'y ajoutent. Les 310,0 Md€ d'émissions valent environ 12 % de l'encours — la fraction du stock qui se renégocie chaque année aux conditions du moment.
 
 | Donnée | Valeur | Source |
 |---|---|---|
@@ -439,9 +435,9 @@ Les deux lignes en « dont » ne reconstituent pas le besoin de financement :
 | Horizon 2029 | « dépasser 100 Md€ par an » | Cour des comptes, février 2026 |
 | Choc permanent de +1 point de taux à 10 ans | +9 Md€ à 3 ans, +16 Md€ à 5 ans, +30 Md€ à 10 ans | id. |
 
-Un point de taux supplémentaire coûte ainsi 9 Md€ au bout de trois ans et 30 Md€ au bout de dix, sans qu'aucune dépense nouvelle ait été votée. Ce n'est pas une hypothèse d'école : les taux français à dix ans sont passés de 2,90 % à 3,45 % en deux ans, soit 55 points de base, et la Cour chiffre l'effet de ce seul mouvement, s'il perdurait, à plus de 1,6 Md€ en 2026, 4 Md€ en 2027 et 8 Md€ en 2029 (niveau collecté). Ce mouvement déjà observé ne se confond pas avec le choc hypothétique de +1 point du tableau ci-dessus.
+Un point de taux supplémentaire coûte 9 Md€ au bout de trois ans et 30 Md€ au bout de dix, sans qu'aucune dépense nouvelle ait été votée. Ce n'est pas une hypothèse d'école : les taux français à dix ans sont passés de 2,90 % à 3,45 % en deux ans, soit 55 points de base, et la Cour chiffre l'effet de ce seul mouvement, s'il perdurait, à plus de 1,6 Md€ en 2026, 4 Md€ en 2027 et 8 Md€ en 2029 (niveau collecté) — un mouvement observé, à ne pas confondre avec le choc hypothétique du tableau.
 
-Deux repères complètent la comparaison aux budgets de ministères. Le premier : 73,6 Md€ prévus pour 2026, c'est « le double de leur niveau de 2019 » selon la Cour, et le recalcul le confirme — 73,6 / 36,9 = 1,995. Le second : parmi les six pays les plus endettés de la zone euro, la France est passée en deux ans du taux d'intérêt le plus faible au taux le plus élevé, à égalité avec l'Italie et la Grèce, dont les ratios d'endettement lui restent pourtant supérieurs (niveau collecté).
+Deux repères complètent la comparaison aux budgets de ministères. Les 73,6 Md€ prévus pour 2026 sont « le double de leur niveau de 2019 » selon la Cour, et le recalcul le confirme — 73,6 / 36,9 = 1,995. Et parmi les six pays les plus endettés de la zone euro, la France est passée en deux ans du taux d'intérêt le plus faible au plus élevé, à égalité avec l'Italie et la Grèce, dont les ratios d'endettement lui restent supérieurs (niveau collecté).
 
 #### Trois grandeurs portent le nom de « charge de la dette »
 
@@ -451,19 +447,19 @@ Deux repères complètent la comparaison aux budgets de ministères. Le premier�
 | Mission « Engagements financiers de l'État » | 60,4 Md€ en crédits de paiement | budgétaire |
 | Charge d'intérêts, toutes administrations publiques | 73,6 Md€, révisé à plus de 78 Md€ | nationale |
 
-Les deux premières lignes sont au niveau collecté. Pour le même exercice, 15,6 Md€ séparent le périmètre le plus étroit du plus large : une conversation où l'un cite 58 et l'autre 78 peut ne comporter aucune erreur. S'y ajoute une limite de mesure : la maturité moyenne, variable décisive pour la vitesse de transmission des taux, n'est disponible qu'à travers deux valeurs anciennes ou imprécises — « huit ans » sans date chez la Cour, 8,2 ans fin 2020 à la direction générale du Trésor. La valeur de 8,5 ans qui circule pour 2026 n'a pas pu être ouverte en source primaire et n'est donc pas publiée.
+Les deux premières lignes sont au niveau collecté. Pour le même exercice, 15,6 Md€ séparent le périmètre le plus étroit du plus large : une conversation où l'un cite 58 et l'autre 78 peut ne comporter aucune erreur. La maturité elle-même n'est disponible qu'à travers deux valeurs anciennes ou imprécises — « huit ans » sans date chez la Cour, 8,2 ans fin 2020 à la direction générale du Trésor ; les 8,5 ans qui circulent pour 2026 n'ont pas pu être ouverts en source primaire et ne sont pas publiés.
 
 #### L'objectif affiché et le résultat mesuré
 
-Le retour durable du déficit sous 3 % du PIB est présenté par la Cour des comptes comme la condition de la soutenabilité de la dette publique. Elle chiffre l'effort budgétaire restant « de l'ordre de 80 Md€ » (niveau collecté), et projette dans le même rapport une charge d'intérêts dépassant 100 Md€ par an à l'horizon 2029 : sur la même fenêtre, l'effort à fournir et la dépense qu'il doit financer progressent ensemble.
+La Cour des comptes pose le retour durable du déficit sous 3 % du PIB comme condition de soutenabilité. Elle chiffre l'effort restant « de l'ordre de 80 Md€ » (niveau collecté) et projette dans le même rapport une charge d'intérêts dépassant 100 Md€ par an à l'horizon 2029 : l'effort à fournir et la dépense qu'il doit financer progressent ensemble.
 
 #### Le contrepoint
 
-Trois faits vont à rebours de la lecture la plus sombre, et « Les faux grands nombres » en reprend deux : le déficit 2025 s'établit à 5,1 % du PIB contre 5,4 % prévus par la Cour un mois plus tôt, la Belgique affiche un déficit plus dégradé à −5,2 %, et les taux français se sont détendus début 2026, repassant sous les taux italiens et grecs. En sens inverse, la dégradation ne tient pas qu'aux intérêts : les dépenses publiques françaises atteignent 57,2 % du PIB en 2025, contre 49,8 % en moyenne dans la zone euro, soit 7,4 points d'écart.
+Trois faits vont à rebours de la lecture la plus sombre, dont deux repris dans « Les faux grands nombres » : le déficit 2025 s'établit à 5,1 % du PIB contre 5,4 % prévus un mois plus tôt par la Cour, la Belgique fait plus dégradé à −5,2 %, et les taux français se sont détendus début 2026, repassant sous les taux italiens et grecs. En sens inverse, la dégradation ne tient pas qu'aux intérêts : les dépenses publiques atteignent 57,2 % du PIB en 2025 contre 49,8 % en moyenne dans la zone euro, soit 7,4 points d'écart.
 
 #### Pourquoi ce rang
 
-Le sixième rang tient à l'**effet de levier** plutôt qu'à la masse — 64,9 Md€ est quatorze fois moins que les 932,5 Md€ de l'article 4. Mais c'est une masse d'éviction : chaque milliard d'intérêts est indisponible pour l'article 4 et pour les entrées 11 et 13 du peloton, sans qu'aucune décision d'éviction ait été prise ni votée.
+Le sixième rang tient à l'**effet de levier** plutôt qu'à la masse — 64,9 Md€, quatorze fois moins que les 932,5 Md€ de l'article 4. Mais c'est une masse d'éviction : chaque milliard d'intérêts est indisponible pour l'article 4 et pour les entrées 11 et 13 du peloton, sans qu'aucune décision ait été prise ni votée.
 
 **Indice de sous-exposition : 🟠** — la dette est très exposée, sa charge annuelle comparée à un budget de ministère l'est peu.
 
@@ -599,7 +595,7 @@ Aucune des grandeurs de ce numéro ne cumule autant de propriétés de sous-expo
 
 ### 9️⃣ **9,3 millions de proches aidants** — et leur nombre baisse de 6 % quand le besoin augmente
 
-Sur le seul champ où la comparaison est licite, le nombre d'aidants recule de 340 000 pendant que le nombre de personnes déclarant avoir besoin d'aide augmente de 80 000 : deux courbes qui devraient être parallèles s'écartent, et l'écart cumulé est de 420 000 personnes sur quatorze ans. C'est la seule charge de ce numéro qui ne figure dans aucun compte public.
+Sur le seul champ où la comparaison est licite, le nombre d'aidants recule de 340 000 pendant que celui des personnes déclarant avoir besoin d'aide augmente de 80 000 : deux courbes qui devraient être parallèles s'écartent de 420 000 personnes en quatorze ans. C'est la seule charge du numéro qui ne figure dans aucun compte public.
 
 | Donnée | Valeur et champ | Source |
 |---|---|---|
@@ -610,7 +606,7 @@ Sur le seul champ où la comparaison est licite, le nombre d'aidants recule de 3
 | Nombre d'aidants par personne aidée | 2,7 (2008) → 2,5 (2022) | id. |
 | Seniors en perte d'autonomie | 2 031 000 en 2021, 2 286 201 en 2030, maximum de 2,8 millions vers 2052 | *Insee Première* n° 2078 |
 
-Ces enquêtes mesurent une position dans une famille, non un métier, et l'effectif dépend de la définition : soutien moral, 6 371 000 personnes en 2021 ; aide aux actes de la vie quotidienne, 5 675 000 ; aide financière ou matérielle, 1 333 000 adultes ; trois millions cumulent les deux premières. La DREES impute la baisse de 6 % aux structures familiales et à l'emploi — moins de descendants par personne âgée, une activité plus continue, des familles plus dispersées —, non à un changement de valeurs. Le besoin, lui, croît de 700 000 seniors en perte d'autonomie entre 2021 et 2052, et le nombre d'aidants baisse aussi dans la majorité des pays européens.
+L'effectif dépend de la définition : soutien moral, 6 371 000 personnes en 2021 ; aide aux actes de la vie quotidienne, 5 675 000 ; aide financière ou matérielle, 1 333 000 adultes, trois millions cumulant les deux premières. La DREES impute la baisse de 6 % aux structures familiales et à l'emploi — moins de descendants par personne âgée, une activité plus continue, des familles plus dispersées —, non à un changement de valeurs. Le besoin, lui, croît de 700 000 seniors en perte d'autonomie entre 2021 et 2052, et le nombre d'aidants baisse aussi dans la majorité des pays européens.
 
 #### La variable d'ajustement est l'intensité, pas le nombre de personnes aidées
 
@@ -622,19 +618,19 @@ Ces enquêtes mesurent une position dans une famille, non un métier, et l'effec
 | Trois à sept types de tâches | 40 % | 51 % |
 | Âge moyen de l'aidant | 52 ans et 11 mois | 55 ans et 4 mois |
 
-Ce tableau porte sur le champ harmonisé et il est au niveau collecté : moins d'aidants, chacun aidant davantage, sur plus de fronts et à un âge plus avancé de deux ans et demi.
+Champ harmonisé, niveau collecté : moins d'aidants, chacun aidant davantage, sur plus de fronts, et à un âge plus avancé de deux ans et demi.
 
-Les aidants sont à 58 % des femmes, accompagnent un parent (35 %), un conjoint (24 %) ou un enfant (19 %), et 58 % travaillent, cherchent un emploi ou étudient — 78 % parmi ceux d'âge actif, dont le taux d'emploi (65 %) est inférieur à celui de l'ensemble de la population (67 %). Trois sur dix n'ont ni co-aidant informel ni relais professionnel, 61 % chez les conjoints et 14 % chez les frères et sœurs : l'isolement croît avec la proximité du lien. Chez les plus jeunes, 642 000 personnes de 5 à 24 ans aident un proche, et 16 % des 15-24 ans concernés ne sont ni en emploi ni en études ni en formation, contre 10 % dans cette classe d'âge (niveau collecté).
+Ils sont à 58 % des femmes, aident un parent (35 %), un conjoint (24 %) ou un enfant (19 %), et 58 % travaillent, cherchent un emploi ou étudient — 78 % parmi ceux d'âge actif, dont le taux d'emploi (65 %) est inférieur à celui de l'ensemble de la population (67 %). Trois sur dix n'ont ni co-aidant ni relais professionnel, 61 % chez les conjoints et 14 % chez les frères et sœurs : l'isolement croît avec la proximité du lien. Enfin 642 000 personnes de 5 à 24 ans aident un proche, et 16 % des 15-24 ans concernés ne sont ni en emploi ni en études ni en formation, contre 10 % dans cette classe d'âge (niveau collecté).
 
-Aucune de ces enquêtes ne mesure ce que l'aide informelle représenterait si elle était achetée : deux estimations circulent, issues de rapports publics du milieu des années 2010, aucune n'a pu être ouverte en publication primaire, et leurs ordres de grandeur ne sont pas repris ici. L'aide aux personnes vivant en établissement est elle aussi hors champ des deux publications les plus récentes.
+Aucune de ces enquêtes ne mesure ce que cette aide représenterait si elle était achetée : deux estimations circulent, issues de rapports publics du milieu des années 2010, aucune n'a pu être ouverte en primaire, et leurs ordres de grandeur ne sont pas repris ici. L'aide aux personnes vivant en établissement est elle aussi hors champ des deux publications les plus récentes.
 
 #### Le contrepoint
 
-La part des personnes jugeant important ou très important d'aider ses proches passe de 57 % en 2002 à 68 % en 2020 (niveau collecté) : la norme d'entraide se renforce pendant que la pratique recule. La répartition des tâches se rééquilibre par ailleurs — les tâches domestiques étaient assurées plus de sept fois sur dix par des femmes en 2008, et la diversité de l'aide apportée par les hommes, 2,5 types de tâches contre 2,9 pour les femmes, rejoint en 2022 celle des femmes à 3,4 types (niveau collecté).
+La part des personnes jugeant important d'aider ses proches passe de 57 % en 2002 à 68 % en 2020 (niveau collecté) : la norme se renforce pendant que la pratique recule. La répartition des tâches se rééquilibre aussi — assurées plus de sept fois sur dix par des femmes en 2008, les tâches domestiques se diversifient du côté des hommes, dont l'aide passe de 2,5 types contre 2,9 pour les femmes à 3,4 types en 2022, comme elles (niveau collecté).
 
 #### Pourquoi ce rang
 
-Cette aide est gratuite et absorbe une charge que les articles 2 et 3 vont mécaniquement accroître. C'est aussi ce qui la place au neuvième rang plutôt que plus haut : une grandeur que personne ne comptabilise ne commande rien de visible. Ce qui la rend structurante est la conjonction de deux tendances opposées, non son niveau.
+Cette aide est gratuite et absorbe une charge que les articles 2 et 3 vont accroître — ce qui la place aussi au neuvième rang : une grandeur que personne ne comptabilise ne commande rien de visible, et ce qui la rend structurante est la conjonction de deux tendances opposées, non son niveau.
 
 **Indice de sous-exposition : 🟠** — l'aidance est un sujet reconnu, sa divergence avec le besoin ne l'est pas.
 
@@ -644,7 +640,7 @@ Cette aide est gratuite et absorbe une charge que les articles 2 et 3 vont méca
 
 ### 🔟 **9,8 millions de personnes sous le seuil de pauvreté, 15,4 %** — le plus haut niveau depuis 1996, début de la série
 
-L'ancrage de cet article n'est pas le niveau mais le rang dans la série : 15,4 % est le plus haut taux observé depuis l'ouverture de la mesure en 1996. Le taux et l'intensité montent ensemble : la population pauvre s'élargit, et le niveau de vie de ceux qui en font partie s'éloigne du seuil.
+L'ancrage n'est pas le niveau mais le rang dans la série : 15,4 % est le plus haut taux observé depuis l'ouverture de la mesure en 1996. Le taux et l'intensité montent ensemble : la population pauvre s'élargit, et ceux qui en font partie s'éloignent du seuil.
 
 | Donnée | Valeur (millésime **2024**) | Source |
 |---|---|---|
@@ -656,7 +652,7 @@ L'ancrage de cet article n'est pas le niveau mais le rang dans la série : 15,4
 | Intensité de la pauvreté | 19,7 % (+0,5 point) | id. |
 | Privation matérielle et sociale | 13,0 % de la population, soit 8,6 millions de personnes | *Insee Focus* n° 353 |
 
-Le taux de pauvreté est un indicateur relatif : le seuil suit le niveau de vie médian, et ce qu'il mesure n'est pas le dénuement mais la distance à la norme du moment. Il se lit donc à côté d'indicateurs de conditions de vie, dont l'INSEE chiffre le recouvrement pour 2023 : 44 % seulement des personnes en privation matérielle et sociale sont pauvres au sens monétaire, et 39 % des personnes pauvres sont en privation (niveau collecté ; millésime distinct de celui des autres valeurs de cet article).
+L'indicateur est relatif : le seuil suit le niveau de vie médian, et ce qu'il mesure est la distance à la norme du moment, non le dénuement. Il se lit donc à côté des conditions de vie, dont l'INSEE chiffre le recouvrement pour 2023 : 44 % seulement des personnes en privation matérielle et sociale sont pauvres au sens monétaire, et 39 % des personnes pauvres sont en privation (niveau collecté ; millésime distinct de celui des autres valeurs de cet article).
 
 #### La structure est plus instructive que le niveau
 
@@ -674,7 +670,7 @@ Le taux de pauvreté est un indicateur relatif : le seuil suit le niveau de vie
 | Taux de pauvreté | 21,3 % | 14,4 % |
 | Intensité de la pauvreté | 38,0 % | 19,3 % |
 
-Ce second tableau, au niveau collecté, porte sur 2022 et non sur 2024. Avant transferts, un habitant sur cinq serait pauvre ; après, un sur sept, et l'intensité est divisée par deux — la redistribution rapproche du seuil plus qu'elle ne le fait franchir. La hiérarchie du tableau précédent suit donc la logique des dispositifs : le minimum vieillesse assurait 78 % du seuil de pauvreté pour une personne seule en 2022, le RSA 43 % après forfait logement (niveau collecté, même source), d'où l'écart de 12 points entre les retraités et les moins de 18 ans, dont les courbes divergent encore. Le taux de 6,9 % chez les salariés, en hausse, dit par ailleurs que l'emploi ne constitue plus une protection complète.
+Ce second tableau, au niveau collecté, porte sur 2022. Avant transferts, un habitant sur cinq serait pauvre ; après, un sur sept, et l'intensité est divisée par deux : la redistribution rapproche du seuil plus qu'elle ne le fait franchir. La hiérarchie du tableau précédent suit les dispositifs — le minimum vieillesse assurait 78 % du seuil pour une personne seule en 2022, le RSA 43 % après forfait logement (niveau collecté, même source) —, d'où l'écart de 12 points entre retraités et moins de 18 ans, dont les courbes divergent encore. Le taux de 6,9 % chez les salariés, en hausse, dit que l'emploi ne protège plus complètement.
 
 Un item de privation, en particulier, s'est dégradé bien plus vite que l'ensemble :
 
@@ -686,17 +682,17 @@ Un item de privation, en particulier, s'est dégradé bien plus vite que l'ensem
 | 2023 | 11,7 % | id. |
 | 2024 (provisoire) | 11,5 % | id. |
 
-La part a doublé en dix ans quand le taux de privation d'ensemble n'était, début 2024, que 0,6 point au-dessus de sa moyenne 2013-2020. Cet item rejoint l'entrée 17 du peloton, consacrée à la précarité énergétique.
+La part a doublé en dix ans quand le taux de privation d'ensemble n'était, début 2024, que 0,6 point au-dessus de sa moyenne 2013-2020. Cet item rejoint l'entrée 17 du peloton.
 
 #### L'écart entre l'attente et le résultat mesuré
 
-Le non-recours au RSA, documenté à l'entrée 13 du peloton, est souvent présenté comme le gisement principal d'une réduction de la pauvreté. La source qui le mesure chiffre aussi ce que donnerait sa disparition : en situation de plein recours, 345 000 ménages pauvres verraient leur niveau de vie augmenter de 280 € par mois en moyenne, mais **58 000 seulement sortiraient de la pauvreté monétaire**, et le taux national ne baisserait que de 0,2 point. La raison tient à la structure du dispositif plus qu'à son exécution : seuls 30 % des ménages pauvres sont éligibles au RSA, et les bénéficiaires resteraient, même en plein recours, à un niveau de vie moyen de 810 € par mois, soit environ 30 % sous le seuil.
+Le non-recours au RSA, documenté à l'entrée 13 du peloton, passe pour le gisement principal d'une réduction de la pauvreté. La source qui le mesure chiffre ce que donnerait sa disparition : en plein recours, 345 000 ménages pauvres gagneraient 280 € par mois en moyenne, mais **58 000 seulement sortiraient de la pauvreté monétaire**, et le taux national ne baisserait que de 0,2 point. La raison tient à la structure du dispositif plus qu'à son exécution : seuls 30 % des ménages pauvres y sont éligibles, et les bénéficiaires resteraient, même en plein recours, à 810 € par mois, soit environ 30 % sous le seuil.
 
 #### Pourquoi ce rang
 
-La masse, 9,8 millions de personnes, justifierait un classement plus haut. Mais l'**irréversibilité** est faible — la pauvreté monétaire se corrige par transfert, et 6,9 points de taux le sont déjà chaque année — et l'**effet de levier** est indirect, sauf par la pauvreté des enfants, dont les effets s'étalent sur des décennies. C'est le seul critère qui empêche cet article de descendre plus bas.
+La masse, 9,8 millions de personnes, justifierait un classement plus haut. Mais l'**irréversibilité** est faible — la pauvreté monétaire se corrige par transfert, et 6,9 points de taux le sont déjà chaque année — et l'**effet de levier** est indirect, sauf par la pauvreté des enfants, dont les effets s'étalent sur des décennies : c'est le seul critère qui empêche l'article de descendre plus bas.
 
-**Indice de sous-exposition : 🟠** — l'indice ne porte pas sur le sujet, très traité, mais sur sa position dans la série : que 2024 soit le point le plus haut depuis l'ouverture de la mesure en 1996 est rarement dit.
+**Indice de sous-exposition : 🟠** — il ne porte pas sur le sujet, très traité, mais sur sa position : que 2024 soit le point le plus haut depuis 1996 est rarement dit.
 
 > **⚠️ Précautions de lecture.** Le champ est celui des ménages en logement ordinaire de France métropolitaine : les personnes sans domicile, en communauté ou dans les DROM n'y figurent pas. L'effectif d'enfants pauvres ne figure pas dans la publication et n'est pas reconstitué ici — seul le taux est donné. Le taux de pauvreté d'Eurostat pour la France, plus élevé, repose sur une méthodologie distincte et n'est pas superposable au taux de l'INSEE. L'intensité de la pauvreté n'est pas un taux de pauvreté : elle mesure l'écart entre le niveau de vie médian des personnes pauvres et le seuil, soit ici (1 337 − 1 074) / 1 337 = 19,7 %. Le tableau des transferts porte sur 2022 et non sur 2024 : l'exercice de décomposition suppose des données d'enquête plus lourdes, publiées avec deux ans de retard sur le taux lui-même. Ses deux lignes ne s'ajoutent pas aux valeurs du premier tableau ; elles décrivent le même phénomène à une autre date et sur un champ d'analyse propre.
 
