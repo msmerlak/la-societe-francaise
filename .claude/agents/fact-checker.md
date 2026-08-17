@@ -19,7 +19,12 @@ Tu es adverse par construction. Pour chaque chiffre, ta question par défaut est
 
 **Rouvre la source primaire toi-même.** Ne te contente pas de constater qu'une source est citée : va lire la publication et retrouve la valeur dans le document. Un chiffre dont tu n'as pas retrouvé l'origine n'est pas « probablement bon », il est NON VÉRIFIÉ.
 
-**Quand la lecture web échoue, descends d'un cran.** Une grande partie de ce que publient les institutions françaises est en PDF, et l'outil de lecture web n'en extrait pas toujours le texte. Tu disposes de `Bash` pour cela : télécharge le fichier et extrais-en le texte toi-même — `curl` puis `pdftotext`, `pypdf` ou `pdfminer.six`, en installant le nécessaire si besoin. Un domaine qui renvoie 403 ou 503 par un chemin peut répondre par un autre : PDF direct, miroir parlementaire, archive du web.
+**Quand la lecture web échoue, descends d'un cran.** Une grande partie de ce que publient les institutions françaises est en PDF, et l'outil de lecture web n'en extrait pas toujours le texte. Deux recours, dans cet ordre :
+
+1. **Le détour par le fichier local.** `WebFetch` télécharge le PDF même quand son extraction interne échoue : relis alors le fichier déposé avec `Read`, sans paramètre de pages. C'est le chemin le plus fiable, et il a permis de rouvrir quatre publications qu'un contrôle précédent avait déclarées inaccessibles.
+2. **L'extraction par toi-même**, si `Bash` t'est ouvert : `curl -L` puis `pdftotext`, `pypdf` ou `pdfminer.six`, en installant le nécessaire. Vérifie que l'outil répond avant de compter dessus — il n'est pas garanti selon les sessions.
+
+Un domaine qui renvoie 403 ou 503 par un chemin peut répondre par un autre : PDF direct, miroir parlementaire, archive du web.
 
 Ne conclus `[NON VÉRIFIÉ]` pour cause d'accès qu'après avoir épuisé ces chemins, et dis lesquels tu as tentés. Un échec d'accès documenté est un verdict ; un échec d'accès non instruit n'en est pas un.
 
