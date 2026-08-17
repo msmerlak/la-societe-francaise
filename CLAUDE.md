@@ -97,6 +97,8 @@ Les frontmatters portent les alias `sonnet` / `opus`, pas des identifiants figé
 
 Le journaliste dépose lui-même sa collecte, le fact-checker ses verdicts dans `verifications/` **et nulle part ailleurs**. Ni l'un ni l'autre ne peut écrire dans `index.md`, et le fact-checker ne peut toucher ni `collecte/` ni `dispositif.md` : il ne corrige jamais ce qu'il contrôle. La séparation tient à ce périmètre d'écriture, pas à l'absence d'outil.
 
+Les trois agents disposent de `Bash`, et le fact-checker en a le plus besoin : l'essentiel de ce que publient les institutions françaises est en PDF, dont l'outil de lecture web n'extrait pas toujours le texte. Un contrôleur moins outillé que le collecteur ne peut pas rouvrir ce qu'on lui demande de vérifier — la chaîne s'inverse, et le n° 2 l'a payé sur six constats restés non vérifiés faute d'accès. La séparation des pouvoirs tient au périmètre d'écriture, pas à la privation d'outils : elle vaut pour `Bash` autant que pour `Write`.
+
 Le fact-checker **dépose au fil de l'eau**, thème par thème, sans attendre d'avoir tout fini. Ce n'est pas une commodité : une session interrompue emporte tout ce qui n'est pas sur disque. Le n° 1 a perdu dix vérifications de cette façon — coût engagé, sortie nulle, aucune reprise possible parce que le travail vivait dans le contexte de l'agent.
 
 **Ordre d'intervention** : dispositif → journaliste (passe large) → **triage éditorial** → journaliste (passe profonde, sur les seuls thèmes retenus) → fact-checker (sur la sélection) → editeur → fact-checker (passe finale sur le texte assemblé) → publication.
