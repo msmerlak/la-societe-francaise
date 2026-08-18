@@ -59,6 +59,9 @@ C'est l'instrument propre de ce numéro, et il remplace toute échelle de gravit
 | **déclaration** | ce que des personnes interrogées acceptent de déclarer | enquête déclarative |
 | **comptage** | l'événement lui-même, enregistré à l'unité | comptage exhaustif |
 | **modèle** | les hypothèses de la modélisation | estimation modélisée |
+| **sans objet** | — la valeur n'est pas un indicateur d'un phénomène | — |
+
+**Le cas « sans objet », ajouté le 18 août 2026.** La collecte a rapporté des valeurs qui ne sont pas des indicateurs : un agrégat de crédits budgétaires, un décompte d'énoncés dans un document de planification. Aucun des cinq registres ne leur convient, et leur en supposer un serait exactement ce que la règle dure interdit. Elles portent donc la marque `sans objet`, assortie d'une phrase disant ce qu'elles mesurent réellement — pour un montant de crédits, les décisions budgétaires et le périmètre de consolidation retenu. Cette marque n'est pas une dispense : elle ne s'emploie que là où l'on peut établir qu'il n'y a pas de phénomène sous-jacent dont la valeur suivrait les variations.
 
 Deux registres différents ne se comparent pas dans le même mouvement de phrase. Une hausse d'un indicateur d'activité de service et une baisse d'un indicateur déclaratif ne se contredisent pas : elles ne portent pas sur le même objet.
 
@@ -233,6 +236,10 @@ Les rubriques 8 et 9 sont au niveau vérifié parce que ce sont elles qui contre
 
 Le niveau de confiance suit le chiffre, pas le paragraphe : si une valeur reparaît ailleurs, elle emporte son marquage. Interdit sans condition, quel que soit le niveau affiché : publier une valeur dont personne n'a ouvert la source.
 
+**Exception au titre d'entrée, ajoutée le 18 août 2026, après la vérification.** La répartition ci-dessus posait que toute valeur portée en titre d'entrée devait être vérifiée. La vérification a laissé neuf publications au niveau collecté, dont celles qui portent l'intégralité des consommations déclarées, les quantités saisies, les prix et le comptage toxicologique des décès. Appliquer la règle telle quelle aurait forcé, pour ces entrées, des titres sans chiffre — c'est-à-dire l'abandon du trait hérité du n° 1 (le titre porte la valeur et son ancrage) là où il est le plus utile, sans rien ajouter à la protection du lecteur.
+
+La règle est donc amendée ainsi : **une valeur au niveau collecté peut porter le titre d'une entrée dans les rubriques 4 à 7 et 10, à la condition que la mention « niveau collecté » figure dans le titre lui-même.** Les rubriques 3, 8 et 9 restent intégralement au niveau vérifié, sans exception : ce sont celles qui portent les cibles et les deux formes de contradiction de l'angle, et une valeur non rouverte n'y a pas sa place. L'exception se déclare en « Méthode » du numéro publié, comme le reste de la répartition.
+
 ---
 
 ## 10. Ce que le numéro écarte volontairement
@@ -327,3 +334,25 @@ Un dispositif hérite librement, à condition de le dire et de rejustifier ce qu
 - [ ] aucune formulation de la section 8.4 n'apparaît dans le texte
 - [ ] aucun émoji
 - [ ] le numéro ne conclut sur l'opportunité d'aucun régime légal, ni par une phrase, ni par l'ordre de ses tableaux
+---
+
+## 16. Modifications apportées après la vérification — 18 août 2026
+
+Le dispositif s'écrit avant la collecte, et il se réécrit explicitement quand la matière déplace la question. Ce qui suit consigne les décisions prises à l'assemblage, pour qu'aucune ne soit tacite.
+
+**Le titre du numéro.** Le titre provisoire annonçait « cibles chiffrées, moyens engagés, indicateurs disponibles ». Le numéro publié porte le résultat lui-même : les deux seules cibles chiffrées du corpus portent sur le tabac et l'alcool en médecine générale. Le dossier conserve son slug d'origine, conformément à la note de nommage.
+
+**Le cas de registre `sans objet`** (section 4) et **l'exception de titre au niveau collecté** (section 9) sont motivés à l'endroit où ils sont inscrits.
+
+**La rubrique 10 est réduite au seul Portugal.** Les publications de l'agence européenne des drogues sont restées inaccessibles — erreur 403 sur trois adresses, reproduite par le journaliste puis par un vérificateur. Le numéro renonce donc à toute donnée européenne harmonisée de première main, et signale que les deux points de comparaison européens qu'il publie sont cités de seconde main par une note d'observatoire française. La rubrique n'est pas abandonnée parce que le cas portugais reste le seul appariement « grandeur ↔ grandeur » disponible sur un changement de régime documenté par un producteur public, et parce que sa réserve d'attribution causale est précisément ce qui empêche la rubrique de glisser vers le contrefactuel.
+
+**Tout le matériau de la Cour des comptes tombe.** La section 13 prévoyait qu'une entrée effondrée soit remplacée par la réserve, jamais repêchée. Ici, ce n'est pas une entrée mais un producteur entier qui n'a pu être rouvert : `ccomptes.fr` renvoie une erreur 503 sur tous les chemins, pour deux vérificateurs successifs, et le miroir d'archive par lequel la collecte y était parvenue est inaccessible aux outils de vérification. Aucune valeur attribuée à la Cour ne figure au numéro. Les deux constats d'absence que la rubrique 9 attendait d'elle sont traités ainsi : le premier — la stratégie en cours ne porte pas de cible chiffrée — est indépendamment établi par la lecture directe de la stratégie elle-même, et c'est sous cette forme qu'il est publié ; le second — l'interruption du suivi du plan antistupéfiants à l'été 2022 — n'est pas publié comme un fait établi, et la rubrique 9 dit qui le rapporte et pourquoi la publication n'a pas pu être ouverte.
+
+**L'ordre des rubriques 8, 9 et 10 est inversé au montage.** La section 6 les listait dans cet ordre ; le numéro publié place la comparaison internationale avant les deux rubriques de contradiction. Motif : la rubrique 9 se termine sur la liste des publications qui n'ont pas pu être ouvertes, et c'est l'enchaînement direct vers le tableau de synthèse et la conclusion, qui en tirent le mécanisme. Le tri, lui, s'est bien fait en premier sur les rubriques 8 et 9, comme la section 13 l'impose : c'est l'ordre de sélection qui compte, pas l'ordre de lecture.
+
+**La fiche AGRASC tombe**, par application de la condition dure de la section 7 du `triage.md` : le sous-ensemble narcotrafic devait figurer littéralement dans le rapport, et le rapport n'a pu être ouvert ni par le journaliste ni par le vérificateur.
+
+**Le millésime retenu pour la dépense consolidée** est l'exécution 2024, soit 2,46 Md€ en crédits de paiement, à l'exclusion des deux autres colonnes du document, qui sont une prévision votée et une prévision soumise au vote.
+
+**Les rubriques 5 à 7 emploient largement le niveau collecté**, ce que la section 9 n'avait pas anticipé à cette échelle. La mention figure dans les titres et dans les en-têtes de tableau concernés, et la section « Méthode » du numéro l'annonce.
+
