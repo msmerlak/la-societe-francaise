@@ -162,6 +162,23 @@ def lire_gabarit(nom: str) -> str:
     return (GABARITS / nom).read_text(encoding="utf-8")
 
 
+def resumer(texte: str, limite: int = 320) -> str:
+    """Tronque à la fin d'une phrase, jamais au milieu d'un mot.
+
+    Un chapô coupé à la lettre près donne à la carte l'air d'un texte cassé ;
+    coupé à la phrase, il se lit comme un extrait choisi.
+    """
+    nu = " ".join(texte.split())
+    if len(nu) <= limite:
+        return nu
+    tronque = nu[:limite]
+    fins = [tronque.rfind(marque) for marque in (". ", " ; ", " — ")]
+    coupe = max(fins)
+    if coupe > limite // 2:
+        return tronque[: coupe + 1].rstrip(" ;—")
+    return tronque[: tronque.rfind(" ")] + "…"
+
+
 def sommaire_html(numero: Numero) -> str:
     if len(numero.document.sommaire) < 3:
         return ""
@@ -200,6 +217,11 @@ def page_numero(numero: Numero, autres: list[Numero]) -> str:
         lire_gabarit("numero.html"),
         rang=f"n° {numero.rang}" if numero.rang else "",
         titre=numero.document.titre_html,
+        sous_titre=(
+            f'<p class="sous-titre">{numero.document.sous_titre_html}</p>'
+            if numero.document.sous_titre_html
+            else ""
+        ),
         chapo=numero.document.chapo_html,
         date=ligne_date,
         sommaire=sommaire_html(numero),
@@ -209,7 +231,10 @@ def page_numero(numero: Numero, autres: list[Numero]) -> str:
     return appliquer(
         lire_gabarit("base.html"),
         titre_page=f"{numero.document.titre} — {ENSEIGNE}",
-        description=html.escape(numero.document.chapo_texte[:180], quote=True),
+        description=html.escape(
+            numero.document.sous_titre or resumer(numero.document.chapo_texte, 180),
+            quote=True,
+        ),
         racine="../../",
         enseigne=ENSEIGNE,
         devise=DEVISE,
@@ -221,7 +246,8 @@ def page_numero(numero: Numero, autres: list[Numero]) -> str:
 def page_accueil(numeros: list[Numero]) -> str:
     if numeros:
         articles = []
-        for numero in numeros:
+        # Le plus récent d'abord : c'est l'ordre d'un magazine, pas celui du disque.
+        for numero in sorted(numeros, key=lambda n: n.slug, reverse=True):
             articles.append(
                 appliquer(
                     lire_gabarit("carte.html"),
@@ -229,7 +255,8 @@ def page_accueil(numeros: list[Numero]) -> str:
                     rang=f"n° {numero.rang}" if numero.rang else "",
                     date=dater(numero.publie_le),
                     titre=numero.document.titre_html,
-                    chapo=html.escape(numero.document.chapo_texte[:320]),
+                    sous_titre=numero.document.sous_titre_html,
+                    chapo=html.escape(resumer(numero.document.chapo_texte)),
                 )
             )
         liste = "".join(articles)
@@ -253,7 +280,7 @@ def page_accueil(numeros: list[Numero]) -> str:
 
 def flux_rss(numeros: list[Numero], base: str) -> str:
     articles = []
-    for numero in numeros:
+    for numero in sorted(numeros, key=lambda n: n.slug, reverse=True):
         publie = numero.publie_le or datetime.now(tz=timezone.utc)
         articles.append(
             "<item>"
@@ -261,7 +288,8 @@ def flux_rss(numeros: list[Numero], base: str) -> str:
             f"<link>{base}{numero.url}</link>"
             f"<guid isPermaLink='true'>{base}{numero.url}</guid>"
             f"<pubDate>{publie.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>"
-            f"<description>{html.escape(numero.document.chapo_texte)}</description>"
+            f"<description>{html.escape(numero.document.sous_titre + ' — ' if numero.document.sous_titre else '')}"
+            f"{html.escape(numero.document.chapo_texte)}</description>"
             "</item>"
         )
     return (

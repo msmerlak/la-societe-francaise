@@ -46,6 +46,8 @@ class Document:
 
     titre: str = ""
     titre_html: str = ""
+    sous_titre: str = ""
+    sous_titre_html: str = ""
     chapo_html: str = ""
     chapo_texte: str = ""
     corps_html: str = ""
@@ -334,6 +336,20 @@ def analyser(markdown: str) -> Document:
             break
 
     reste = lignes[debut:]
+
+    # Un `##` placé juste après le titre est le sous-titre du numéro — ce que la
+    # presse appelle une surtitraille. Il est sorti du corps : il n'a rien à
+    # faire dans le sommaire, et il sert de sous-titre aux cartes de l'accueil.
+    curseur = 0
+    while curseur < len(reste) and not reste[curseur].strip():
+        curseur += 1
+    if curseur < len(reste):
+        sous_titre = Rendu.MOTIF_TITRE.match(reste[curseur])
+        if sous_titre and len(sous_titre.group(1)) == 2:
+            document.sous_titre = re.sub(r"[*_`]", "", sous_titre.group(2)).strip()
+            document.sous_titre_html = rendu.inline(sous_titre.group(2))
+            reste = reste[curseur + 1 :]
+
     curseur = 0
     while curseur < len(reste) and not reste[curseur].strip():
         curseur += 1
