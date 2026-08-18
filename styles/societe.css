@@ -126,6 +126,25 @@ strong { font-weight: 600; }
   margin: 0 0 .5rem;
 }
 
+.sous-titre {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  font-weight: 400;
+  color: var(--encre-douce);
+  margin: 0 0 1rem;
+  max-width: var(--mesure);
+  text-wrap: balance;
+}
+
+.sous-titre-carte {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--encre-douce);
+  margin: 0 0 .4rem;
+}
+
+.sous-titre-carte:empty { display: none; }
+
 .chapo p {
   font-size: 1.0625rem;
   font-style: italic;
